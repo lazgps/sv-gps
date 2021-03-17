@@ -7,20 +7,23 @@
 		"start": "svelte-kit start"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "next",
-		"@sveltejs/kit": "next",
-		"svelte": "^3.29.0",
-		"vite": "^2.0.4",
+		"@sveltejs/adapter-node": "^1.0.0-next.8",
+		"@sveltejs/kit": "^1.0.0-next.50",
 		"autoprefixer": "^10.2.5",
 		"cssnano": "^4.1.10",
+		"gray-matter": "^4.0.2",
+		"marked": "^2.0.1",
 		"postcss": "^8.2.7",
 		"postcss-cli": "^8.3.1",
 		"postcss-load-config": "^3.0.1",
+		"svelte": "^3.29.0",
 		"svelte-preprocess": "^4.6.9",
-		"tailwindcss": "^2.0.3"
+		"tailwindcss": "^2.0.3",
+		"vite": "^2.1.2"
 	},
 	"type": "module",
 	"engines": {
 		"node": ">= 12.17.0"
-	}
+	},
+	"dependencies": {}
 }

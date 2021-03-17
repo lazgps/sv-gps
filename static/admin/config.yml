@@ -1,0 +1,25 @@
+# ~/public/admin/config.yml
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+  #repo: lazgps/new-site
+publish_mode: editorial_workflow # Allows you to save drafts before publishing them
+media_folder: static/uploads # Media files will be stored in the repo under static/images/uploads
+public_folder: /uploads # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "static/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}:{{minute}}_{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false }
+      - {label: "Body", name: "body", widget: "markdown"}
+
+editor:
+  preview: true
+  sumary: "{{commit_date}}-{{title}}}"

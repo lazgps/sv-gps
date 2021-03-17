@@ -6,7 +6,6 @@
     onMount(async () => {
         const rest = await fetch('https://app.tenantturner.com/listings-json-key/gpsrealtyandpropertymanagement');
         turnerData = await rest.json();
-        console.log(turnerData);
     });
 
 </script>
