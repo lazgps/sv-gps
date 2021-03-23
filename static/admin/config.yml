@@ -10,7 +10,7 @@ public_folder: /uploads # The src attribute for uploaded media will begin with /
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "static/posts"
+    folder: "posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{hour}}:{{minute}}_{{slug}}"
     fields:

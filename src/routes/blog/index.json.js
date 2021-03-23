@@ -1,12 +1,10 @@
-import { posts } from './_posts';
+import posts from './_posts.js';
 
 export function get() {
-    return{
+    return {
         body: Object.keys(posts).map(slug => ({
             slug,
             ...posts[slug]
         }))
     };
 }
-
-
