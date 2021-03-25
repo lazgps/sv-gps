@@ -3,7 +3,7 @@ import fm from 'front-matter';
 // import matter from 'gray-matter';
 import marked from 'marked';
 // let postDir = '../../../posts';
-let postDir = './static/posts';
+let postDir = 'static/posts';
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 marked.setOptions({
