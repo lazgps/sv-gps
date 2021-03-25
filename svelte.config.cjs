@@ -1,5 +1,5 @@
 const adapter = require(process.env.ADAPTER || '@sveltejs/adapter-node');
-const options = JSON.stringify(process.env.OPTIONS || '{}';
+const options = JSON.stringify(process.env.OPTIONS || '{}');
 // const adapterStatic = require('@sveltejs/adapter-static');
 const pkg = require('./package.json');
 
