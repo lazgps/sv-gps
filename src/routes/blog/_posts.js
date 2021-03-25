@@ -1,9 +1,10 @@
 import { readdirSync, readFileSync } from 'fs';
 import fm from 'front-matter';
 import marked from 'marked';
+import { assets } from '$app/paths';
 
 let basedir = process.cwd();
-let postDir = basedir + '/posts';
+let postDir = assets + '/posts';
 
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
