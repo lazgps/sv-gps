@@ -3,7 +3,7 @@ import fm from 'front-matter';
 import marked from 'marked';
 import { assets } from '$app/paths';
 
-let postDir = '../posts';
+let postDir = './posts';
 
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
