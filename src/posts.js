@@ -12,6 +12,7 @@ marked.setOptions({
     breaks: true
 });
 
+console.log(process.cwd());
 
 function appendLeadZ(n) {
     if( n <=9) {
