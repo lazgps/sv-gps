@@ -1,4 +1,4 @@
-import posts from './_posts.js';
+import posts from '../../posts.js';
 
 export function get({ params }) {
     if (params.slug in posts) {
