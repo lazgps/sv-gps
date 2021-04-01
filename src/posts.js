@@ -1,16 +1,13 @@
 import { readdirSync, readFileSync } from 'fs';
 import fm from 'front-matter';
 import marked from 'marked';
-import { assets } from '$app/paths';
+import { base } from '$app/paths';
 
-let postDir = './posts';
+let postDir = `${base}/content/posts`;
+
+console.log(process.cwd());
 
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-marked.setOptions({
-    gfm: true,
-    breaks: true
-});
 
 console.log(process.cwd());
 
@@ -30,16 +27,25 @@ const posts = readdirSync(postDir).map(postFilename => {
         postfm.attributes.slug = postFilename.split('.').slice(0, -1).join('.');
     let tdate = new Date(postfm.attributes.date);
     postfm.attributes.date = months[tdate.getMonth()] + ' ' + tdate.getDate() + ' ' + tdate.getFullYear() + ' ' + tdate.getHours() + ':' + appendLeadZ(tdate.getMinutes());
-    return {
+    let tpost = {};
+    let key = postfm.attributes.slug;
+    tpost[key]= {
+        title: postfm.attributes.title, 
+        date: postfm.attributes.date, 
+        html: marked(postfm.body)
+    };
+/*     return {
             slug: postfm.attributes.slug,
             title: postfm.attributes.title,
             date: postfm.attributes.date,
             html: marked(postfm.body)
-        }
+        } */
+        return {...tpost }
 });
 
-posts.forEach(post => {
+/* posts.forEach(post => {
     post.html = post.html.replace(/^\t{3}/gm, '');
 });
+ */
 
-export default posts;
+export posts;

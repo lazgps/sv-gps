@@ -1,4 +1,4 @@
-import posts from '../../posts.js';
+/* import posts from '../../post.js';
 
 export function get({ params }) {
     if (params.slug in posts) {
@@ -9,4 +9,4 @@ export function get({ params }) {
     return { 
         status: 404
     };
-}
+} */

@@ -4,7 +4,7 @@ import { readdirSync, readFileSync } from "fs";
 import { join } from "path";
 
 function getMarkdownFileContent(dir) {
-  const root = `../../../static/${dir}/`;
+  const root = `static/${dir}/`;
   const files = readdirSync(root);
 
   return (
@@ -15,32 +15,20 @@ function getMarkdownFileContent(dir) {
       // Construct data for response
       let post = {};
       let key = filename.slice(0, -3);
-      let file = filename.slice(0, -3);
       const parsed = fm(content);
       const html = marked(parsed.body);
       const frontmatter = parsed.attributes;
       const title = frontmatter.title;
       const date = frontmatter.date;
       const excerpt = frontmatter.excerpt;
-      post[key] = { title, date, excerpt, html, file };
-
+      post[key] = { title, date, excerpt, html };
     //   Object.keys(post).forEach(e => console.log(`key=${e} value=${post[e]}`));
-      return { posts };
+      return { ...post };
     })
   );
 }
 
 const posts = getMarkdownFileContent("posts");
-
-const test = Object.keys(posts).forEach(e => post[e]);
-
-console.log(test);
-
-export function get() {
-    return {
-        body: Object.keys(posts).map(slug => ({
-            slug,
-            ...posts[slug]
-        }))
-    };
-}
+console.log(...posts);
+// console.log(...posts);
+export posts;
