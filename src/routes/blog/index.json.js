@@ -1,38 +1,23 @@
 import fm from "front-matter";
 import marked from "marked";
-import { readdirSync, readFileSync } from "fs";
-import { join } from "path";
+import { assets } from "$app/paths";
 
-function getMarkdownFileContent(dir) {
-  const root = `../../../static/${dir}/`;
-  const files = readdirSync(root);
 
-  return (
-    files.map(filename => {
-      const path = join(root, filename);
-      const content = readFileSync(path, { encoding: "utf-8" });
+console.log(assets);
 
-      // Construct data for response
-      let post = {};
-      let key = filename.slice(0, -3);
-      let file = filename.slice(0, -3);
-      const parsed = fm(content);
-      const html = marked(parsed.body);
-      const frontmatter = parsed.attributes;
-      const title = frontmatter.title;
-      const date = frontmatter.date;
-      const excerpt = frontmatter.excerpt;
-      post[key] = { title, date, excerpt, html, file };
-
-    //   Object.keys(post).forEach(e => console.log(`key=${e} value=${post[e]}`));
-      return { posts };
-    })
-  );
+// const posts = getMarkdownFileContent("posts");
+const allposts = import.meta.glob('/static/posts/*.md');
+let list = [];
+for (const path in allposts) {
+  allposts[path]().then((mod) => {
+    list.push({title: mod.attributes.title, path: path.replace("/static/posts","blog").replace(".md","")});
+    list = list;
+  })
 }
 
-const posts = getMarkdownFileContent("posts");
+console.log(list);
 
-const test = Object.keys(posts).forEach(e => post[e]);
+/* const test = Object.keys(posts).forEach(e => post[e]);
 
 console.log(test);
 
@@ -43,4 +28,4 @@ export function get() {
             ...posts[slug]
         }))
     };
-}
+} */

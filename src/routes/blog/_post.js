@@ -1,7 +1,5 @@
 import fm from "front-matter";
 import marked from "marked";
-import { readdirSync, readFileSync } from "fs";
-import { join } from "path";
 
 function getMarkdownFileContent(dir) {
   const root = `static/${dir}/`;
