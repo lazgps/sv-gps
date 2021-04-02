@@ -6,7 +6,7 @@ import { assets } from "$app/paths";
 console.log(assets);
 
 // const posts = getMarkdownFileContent("posts");
-const allposts = import.meta.glob('/static/posts/*.md');
+/* const allposts = import.meta.glob('/static/posts/*.md');
 let list = [];
 for (const path in allposts) {
   allposts[path]().then((mod) => {
@@ -15,7 +15,7 @@ for (const path in allposts) {
   })
 }
 
-console.log(list);
+console.log(list); */
 
 /* const test = Object.keys(posts).forEach(e => post[e]);
 
