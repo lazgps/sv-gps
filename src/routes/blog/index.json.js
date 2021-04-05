@@ -1,9 +1,10 @@
-import fm from "front-matter";
+/* import fm from "front-matter";
 import marked from "marked";
-import { assets } from "$app/paths";
+import { assets } from "$app/paths"; */
 
+import posts from "./_posts";
 
-console.log(assets);
+console.log(posts);
 
 // const posts = getMarkdownFileContent("posts");
 /* const allposts = import.meta.glob('/static/posts/*.md');

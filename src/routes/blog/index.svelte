@@ -1,7 +1,7 @@
 <script context="module">
-  // export const prerender = true;
+  export const prerender = true;
 
-/*   export async function load({ fetch }) {
+  export async function load({ fetch }) {
     const res = await fetch('/blog.json');
     console.log(res);
     return {
@@ -9,7 +9,7 @@
         posts: await res.json()
       }
     };
-  } */
+  }
 /*   export async function getPost() {
     const posts = await Promise.all(
       Object.entries(import.meta.glob('/static/posts/*.md')).map(
