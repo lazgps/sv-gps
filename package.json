@@ -11,10 +11,10 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "next",
-		"@sveltejs/adapter-node": "^1.0.0-next.12",
+		"@sveltejs/adapter-node": "^1.0.0-next",
 		"@sveltejs/adapter-static": "next",
-		"@sveltejs/adapter-vercel": "^1.0.0-next.10",
-		"@sveltejs/kit": "^1.0.0-next.71",
+		"@sveltejs/adapter-vercel": "^1.0.0-next",
+		"@sveltejs/kit": "^1.0.0-next",
 		"autoprefixer": "^10.2.5",
 		"cssnano": "^4.1.11",
 		"postcss": "^8.2.9",
@@ -23,13 +23,14 @@
 		"svelte": "^3.37.0",
 		"svelte-preprocess": "^4.7.0",
 		"tailwindcss": "^2.1.1",
-		"vite": "^2.1.5",
-		"front-matter": "^4.0.2",
-		"marked": "^2.0.1"
+		"vite": "^2.1.5"
 	},
 	"type": "module",
 	"engines": {
 		"node": ">= 14.16.0"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"front-matter": "^4.0.2",
+		"marked": "^2.0.1"
+	}
 }
