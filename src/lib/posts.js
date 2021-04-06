@@ -4,7 +4,7 @@ import fm from 'front-matter';
 import marked from 'marked';
 
 let posts = [];
-let mypath = path.resolve('src/content/posts/');
+let mypath = path.resolve('./content/posts/');
 let postFiles = readdirSync(mypath);
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
