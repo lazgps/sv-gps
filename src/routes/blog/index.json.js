@@ -1,4 +1,4 @@
-import posts from "../../_posts.js";
+import posts from '$lib/posts.js';
 
 export function get() {
     return {
