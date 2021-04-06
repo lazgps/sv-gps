@@ -1,32 +1,13 @@
-/* import fm from "front-matter";
-import marked from "marked";
-import { assets } from "$app/paths"; */
-
-import posts from "./_posts";
-
-console.log(posts);
-
-// const posts = getMarkdownFileContent("posts");
-/* const allposts = import.meta.glob('/static/posts/*.md');
-let list = [];
-for (const path in allposts) {
-  allposts[path]().then((mod) => {
-    list.push({title: mod.attributes.title, path: path.replace("/static/posts","blog").replace(".md","")});
-    list = list;
-  })
-}
-
-console.log(list); */
-
-/* const test = Object.keys(posts).forEach(e => post[e]);
-
-console.log(test);
+import posts from "../../_posts.js";
 
 export function get() {
     return {
         body: Object.keys(posts).map(slug => ({
-            slug,
-            ...posts[slug]
+          slug: posts[slug].filename,
+          title: posts[slug].title,
+          date: posts[slug].date,
+          excerpt: posts[slug].excerpt,
+          html: posts[slug].html 
         }))
     };
-} */
+} 

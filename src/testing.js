@@ -8,4 +8,4 @@ fs.readdirSync(basedir)
             title: contents.data.title? contents.data.title : "",
             body: md.render(contents.content)
         }
-    })
+    });

@@ -24,13 +24,12 @@
 		"svelte-preprocess": "^4.6.9",
 		"tailwindcss": "^2.0.4",
 		"vite": "^2.1.0",
-		"front-matter": "^4.0.2"
+		"front-matter": "^4.0.2",
+		"marked": "^2.0.1"
 	},
 	"type": "module",
 	"engines": {
 		"node": ">= 14.16.0"
 	},
-	"dependencies": {
-		"marked": "^2.0.1"
-	}
+	"dependencies": {}
 }
