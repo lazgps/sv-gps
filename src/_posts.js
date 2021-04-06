@@ -5,7 +5,7 @@ import marked from 'marked';
 console.log(process.cwd());
 
 let posts = [];
-let postFiles = readdirSync('./posts/');
+let postFiles = readdirSync('./static/posts/');
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function appendLeadZ(n) {
@@ -16,7 +16,7 @@ function appendLeadZ(n) {
 }
 
 for(let postFile of postFiles){
-    const fileContents = readFileSync('./posts/' + postFile,  'utf-8');
+    const fileContents = readFileSync('./static/posts/' + postFile,  'utf-8');
     const postfm = fm(fileContents);
     let postDate = new Date(postfm.attributes.date);
     let fileName = postFile.slice(0, -3);
