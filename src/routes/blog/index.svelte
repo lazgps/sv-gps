@@ -13,8 +13,6 @@
 
 <script>
  export let posts;
- let myposts = Object.values(posts);
- console.log(myposts[0]['slug']);
 </script>
 
 <main class="text-gray-600 body-font">

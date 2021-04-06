@@ -3,7 +3,6 @@
 
     export async function load({ page, fetch }) {
         const res = await fetch(`/blog/${page.params.slug}.json`);
-        console.log(res);
         return {
             props: {
                 post: await res.json()
