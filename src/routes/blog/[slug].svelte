@@ -51,7 +51,7 @@
             <div class="h-full">
                 <h1 class="title-font text-lg font-medium text-gray-500 mb-3">{date}</h1>
                 <p class="leading-relaxed text-lg font-bold text-black-900 mb-3">{title}</p>
-                <p class="lg:mb-0 tex-red-500">{@html post.html}</p>
+                <Rendered class="lg:mb-0 tex-red-500"/>
             </div>
         </div>
       </div>

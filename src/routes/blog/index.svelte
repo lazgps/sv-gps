@@ -5,8 +5,6 @@
     const { slug } = page.params;
     const posts = session.posts;
 
-    console.log(posts);
-
     if (posts.length) {
       return {
         props: {
