@@ -4,4 +4,3 @@ node_modules
 /build
 /functions
 /.vercel_build_output
-package-lock.json
