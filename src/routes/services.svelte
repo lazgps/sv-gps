@@ -1,4 +1,10 @@
+<script>
+  import Modal1 from '$lib/Modal1.svelte';
+  let Mdl;
+</script>
+
 <main class="text-gray-600 body-font">
+  <Modal1 bind:this={Mdl}></Modal1>
   <h2 class="text-center text-2xl tracking-tight title-font text-gray-900">We Offer Superior Services Backed by Guarantees.</h2>
     <div class="container px-5 py-10 mx-auto flex flex-wrap">
       <div class="flex relative pb-20 sm:items-center md:w-2/3 lg:w-4/5 lg:items-center mx-auto">
@@ -99,7 +105,7 @@
           <p class="text-xl leading-relaxed">Long term property care.  Done!</p>
           <p class="text-xl leading-relaxed">Stress free income.  Done!</p>
           <h3 class="title-font sm:text-xl text-base mb-4 font-medium text-gray-900">Now let's get your journey started to stress-free property management.</h3>
-          <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl">
+          <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl.show()}>
             Begin Here
           </button>
         </div>
