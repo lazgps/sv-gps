@@ -5,7 +5,7 @@
 
 <main class="text-gray-600 body-font">
   <Modal1 bind:this={Mdl}></Modal1>
-  <h2 class="text-center text-2xl tracking-tight title-font text-gray-900">We Offer Superior Services Backed by Guarantees.</h2>
+  <h2 class="text-center text-2xl tracking-tight title-font text-gray-900">We Offer Superior Services Backed by Guarantees</h2>
     <div class="container px-5 py-10 mx-auto flex flex-wrap">
       <div class="flex relative pb-20 sm:items-center md:w-2/3 lg:w-4/5 lg:items-center mx-auto">
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -24,7 +24,7 @@
               <li class="">Powerful technology driven marketing lists your property on all internet rental platforms and social media</li>
               <li>Strict screening process including AI algorithms to ensure the best candidates</li>
               <li>Less than 1% eviction rates on residents we place</li>
-              <li>100% tenant loss guarantee (exclusions apply</li>
+              <li>100% tenant loss guarantee (exclusions apply)</li>
             </ul>
           </div>
         </div>
@@ -45,8 +45,8 @@
             <ul class="list-disc list-inside">
               <li>We offer a maintenance platform that allows seamless communication between the tenant, manager and vendor</li>
               <li>Most work orders are fulfilled in 48 hours</li>
-              <li>24-hour maned after-hours emergency call line</li>
-              <li>Annual third-party inspections paid for by GPS ensures no unexpected surprises for Tenants and Owners</li>
+              <li>24-hour manned after-hours emergency call line</li>
+              <li>Annual third-party inspections paid for by GPS helps avoid unexpected surprises for Tenants and Owners</li>
             </ul>
           </div>
         </div>
@@ -91,7 +91,7 @@
             <ul class="list-disc list-inside">
               <li>No hidden fees or reserves</li>
               <li>Money in your account 15 days after receipt, every month</li>
-              <li>Online owner portal that allows real-time information 24 hours a day, from anywhare</li>
+              <li>Online owner portal that allows real-time information 24 hours a day, from anywhere</li>
               <li>Easy out contract for owners with no cancellation fees</li>
             </ul>
           </div>
@@ -99,7 +99,7 @@
       </div>
       <div class="flex-grow bg-gray-200 mx-auto px-5 py-10 items-center justify-center">
         <div class="text-center md:w-2/3 lg:w-full w-full">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What do we Do?</h1>
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What We Do Right</h1>
           <p class="text-xl leading-relaxed">Find the Right tenant.  Done!</p>
           <p class="text-xl leading-relaxed">Keep the Right tenant.  Done!</p>
           <p class="text-xl leading-relaxed">Long term property care.  Done!</p>

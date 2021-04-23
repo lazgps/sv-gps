@@ -38,7 +38,7 @@
       <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
         <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
           <div class="text-center text-lg text-gray-900 mb-2">
-            <h2>Your Information</h2>
+            <h2>Submit the Form to Obtain a Free Rental Analysis</h2>
           </div>
           <form action="#" method="POST">
             <div class="col-span-6 sm:col-span-3">
@@ -53,6 +53,16 @@
             <div class="col-span-6 sm:col-span-3">
               <label for="email_address" class="block text-sm font-medium text-gray-700">Email address:</label>
               <input type="text" name="email_address" id="email_address" autocomplete="email" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+            </div>
+
+            <div class="col-span-6 sm:col-span-3">
+              <label for="phone_number" class="block text-sm font-medium text-gray-700">Phone Number:</label>
+              <input type="text" name="phone_number" id="phone_number" autocomplete="phone-number" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+            </div>
+
+            <div class="col-span-6 sm:col-span-3">
+              <label for="number_properties" class="block text-sm font-medium text-gray-700">Number of Properties to Manage:</label>
+              <input type="text" name="number_properties" id="number_properties" autocomplete="number-properties" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
             </div>
 
             <div class="mt-1 col-span-6 sm:col-span-3">
