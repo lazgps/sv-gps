@@ -7,7 +7,8 @@
 		"start": "svelte-kit start",
 		"build:vercel": "ADAPTER=@sveltejs/adapter-vercel OPTIONS={} npm run build",
 		"build:static": "ADAPTER=@sveltejs/adapter-static OPTIONS={} npm run build",
-		"build:netlify": "ADAPTER=@sveltejs/adapter-netlify OPTIONS={} npm run build"
+		"build:netlify": "ADAPTER=@sveltejs/adapter-netlify OPTIONS={} npm run build",
+		"build:node": "ADAPTER=@sveltejs/adapter-node OPTIONS={} npm run build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "next",
@@ -29,11 +30,13 @@
 		"prettier": "^2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
 		"svelte": "^3.35.0",
+		"svelte-forms-lib": "^1.10.1",
 		"svelte-preprocess": "^4.7.0",
 		"tailwindcss": "^2.1.1",
 		"tslib": "^2.2.0",
 		"typescript": "^4.2.3",
-		"vite": "^2.1.5"
+		"vite": "^2.1.5",
+		"yup": "^0.32.9"
 	},
 	"type": "module",
 	"engines": {

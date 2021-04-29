@@ -1,7 +1,6 @@
 <script>
   import { createForm } from 'svelte-forms-lib';
   import * as yup from 'yup';
-  import Email from './smtp.js';
 
   const { form, errors, handleChange, handleSubmit, handleReset } =  createForm({
     initialValues: {
@@ -21,6 +20,7 @@
       goals: yup.string()
     }),
     onSubmit: values => {
+      alert(JSON.stringify(values));
       show();
       handleReset();
     }
