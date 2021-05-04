@@ -1,6 +1,9 @@
 
 <footer class="bg-red-500">
     <div class="container flex flex-col items-center">
+        <div>
+            <h2></h2>
+        </div>
         <div class="grid grid-cols-2 grid-flow-row justify-items-auto md:mx-8 md:my-4 md:py-4 md:px-8">
             <div class="md:mr-6 md:pr-6">
                 <img class="h-12" src="/images/logos/equal-house-opp.png" alt="Equal Housing logo">

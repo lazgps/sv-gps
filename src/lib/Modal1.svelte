@@ -22,13 +22,13 @@
     onSubmit: values => {
       alert(JSON.stringify(values));
       show();
-      handleReset();
     }
   });
 
   let showMdl = false;
 
   export function show() {
+    handleReset();
     showMdl = !showMdl;
   }
 </script>
