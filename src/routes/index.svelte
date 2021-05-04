@@ -13,7 +13,7 @@
           <h1 class="text-4xl text-left uppercase text-red font-bold title-font sm:w-4/5 ml-8">Stress Free, Hands-off Property Management</h1>
           <br>
           <h2 class="text-lg text-white text-left sm:w-4/5 ml-8">Let Us End Your Property Management Frustrations</h2>
-          <button class="mx-auto mt-20 text-white bg-red border-0 sm:w-4/5 md:w-2/6 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+          <button class="mx-auto mt-20 text-white bg-red border-0 sm:w-4/5 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
             Begin Here
           </button>
         </div>
