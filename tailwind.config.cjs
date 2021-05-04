@@ -22,7 +22,11 @@ module.exports = {
 	theme: {
 		colors: {
 			red: {
+				lightest: "#ff2f40",
+				light: "#ff2f40",
 				DEFAULT: "#ee2c3c",
+				dark: "#c82532",
+				darkest: "#a21e29",
 			},
 		},
 		extend: {},
