@@ -1,8 +1,10 @@
 
-<footer class="bg-red-500">
+<footer class="bg-red">
     <div class="container flex flex-col items-center">
         <div>
-            <h2></h2>
+            <h2>838 Grand Regency Pointe</h2>
+            <h3>Altamonte Springs, FL 32714</h3>
+            
         </div>
         <div class="grid grid-cols-2 grid-flow-row justify-items-auto md:mx-8 md:my-4 md:py-4 md:px-8">
             <div class="md:mr-6 md:pr-6">
