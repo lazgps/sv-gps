@@ -8,8 +8,8 @@
             info@gps-realestate.com</p>
         </div>
         <div class="grid grid-cols-2 grid-flow-row justify-items-auto md:mx-4 md:my-4 md:py-4 md:px-4">
-            <div class="col-span-2 text-center text-white mb-2">
-                <small>Affiliations:</small>  
+            <div class="col-span-2 text-center text-white mb-2 text-sm">
+                <p>Affiliations:</p>  
             </div>
             <div class="md:mr-6 md:pr-6">
                 <img class="h-10" src="/images/logos/equal-house-opp.png" alt="Equal Housing logo">

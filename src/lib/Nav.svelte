@@ -19,11 +19,11 @@
         </li>
         {/each}
     </ul>
-    <ul class="self-end md:inline-flex md:flex-row pr-10 md:self-center md:p-0">
+    <div class="self-end md:inline-flex md:flex-row pr-10 md:self-center md:p-0">
         <li class="hover:text-gray-800">
             <p>Sign in</p>
         </li>
-    </ul>
+    </div>
 </nav>
 
 
