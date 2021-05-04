@@ -1,5 +1,4 @@
 const { tailwindExtractor } = require("tailwindcss/lib/lib/purgeUnusedStyles");
-const colors = require("tailwindcss/colors");
 
 module.exports = {
 	purge: {
@@ -29,7 +28,8 @@ module.exports = {
 					DEFAULT: "#ee2c3c",
 					dark: "#c82532",
 					darkest: "#a21e29",
-				}
+				},
+			},
 		},
 	},
 	variants: {
