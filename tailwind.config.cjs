@@ -22,9 +22,9 @@ module.exports = {
 	theme: {
 		colors: {
 			red: {
-				DEFAULT: '#EE2C3C', 
-			}
-		}
+				DEFAULT: "#EE2C3C",
+			},
+		},
 		extend: {},
 	},
 	variants: {
