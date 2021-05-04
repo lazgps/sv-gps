@@ -21,10 +21,10 @@
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
             <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Finding the Right Tenant Is Top Priority</h2>
             <ul class="list-disc list-inside">
-              <li class="">Powerful technology driven marketing lists your property on all internet rental platforms and social media</li>
-              <li>Strict screening process including AI algorithms to ensure the best candidates</li>
-              <li>Less than 1% eviction rates on residents we place</li>
-              <li>100% tenant loss guarantee (exclusions apply)</li>
+              <li class="">Powerful Technology Driven Marketing Lists Your Property on All Internet Rental Platforms and Social Media</li>
+              <li>Strict Screening Process Including Ai Algorithms to Ensure the Best Candidates</li>
+              <li>Less than 1% Eviction Rates on Residents We Place</li>
+              <li>100% Tenant Loss Guarantee (Exclusions Apply)</li>
             </ul>
           </div>
         </div>
@@ -41,12 +41,12 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Once we find the right Tenant, we keep them</h2>
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Once We Find the Right Tenant, We Keep Them</h2>
             <ul class="list-disc list-inside">
-              <li>We offer a maintenance platform that allows seamless communication between the tenant, manager and vendor</li>
-              <li>Most work orders are fulfilled in 48 hours</li>
-              <li>24-hour manned after-hours emergency call line</li>
-              <li>Annual third-party inspections paid for by GPS helps avoid unexpected surprises for Tenants and Owners</li>
+              <li>We Offer a Maintenance Platform That Allows Seamless Communication Between the Tenant, Manager and Vendor</li>
+              <li>Most Work Orders Are Fulfilled in 48 Hours</li>
+              <li>24-hour Manned After-hours Emergency Call Line</li>
+              <li>Annual Third-party Inspections Paid for by Gps Helps Avoid Unexpected Surprises for Tenants and Owners</li>
             </ul>
           </div>
         </div>
@@ -64,12 +64,12 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">A long term focus on the care of your property investment</h2>
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">A Long Term Focus on the Care of Your Property Investment</h2>
             <ul class="list-disc list-inside">
-              <li>Third party inspections allow planning and budgeting</li>
-              <li>Fully licensed and insured vendors for maintenance</li>
-              <li>Fully transparent, no mark-ups on already low vendor pricing</li>
-              <li>Quick maintenance resolution to avoid long term or further damage</li>
+              <li>Third Party Inspections Allow Planning and Budgeting</li>
+              <li>Fully Licensed and Insured Vendors for Maintenance</li>
+              <li>Fully Transparent, No Mark-ups on Already Low Vendor Pricing</li>
+              <li>Quick Maintenance Resolution to Avoid Long Term or Further Damage</li>
             </ul>
           </div>
         </div>
@@ -87,12 +87,12 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Property producing income that is stress free</h2>
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Property Producing Income That Is Stress Free</h2>
             <ul class="list-disc list-inside">
-              <li>No hidden fees or reserves</li>
-              <li>Money in your account 15 days after receipt, every month</li>
-              <li>Online owner portal that allows real-time information 24 hours a day, from anywhere</li>
-              <li>Easy out contract for owners with no cancellation fees</li>
+              <li>No Hidden Fees or Reserves</li>
+              <li>Money in Your Account 15 Days after Receipt, Every Month</li>
+              <li>Online Owner Portal That Allows Real-time Information 24 Hours a Day, from Anywhere</li>
+              <li>Easy out Contract for Owners with No Cancellation Fees</li>
             </ul>
           </div>
         </div>
@@ -100,11 +100,11 @@
       <div class="flex-grow bg-gray-200 mx-auto px-5 py-10 items-center justify-center">
         <div class="text-center md:w-2/3 lg:w-full w-full">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What We Do Right</h1>
-          <p class="text-xl leading-relaxed">Find the Right tenant.  Done!</p>
-          <p class="text-xl leading-relaxed">Keep the Right tenant.  Done!</p>
-          <p class="text-xl leading-relaxed">Long term property care.  Done!</p>
-          <p class="text-xl leading-relaxed">Stress free income.  Done!</p>
-          <h3 class="title-font sm:text-xl text-base mb-4 font-medium text-gray-900">Now let's get your journey started to stress-free property management.</h3>
+          <p class="text-xl leading-relaxed">Find the Right Tenant.  Done!</p>
+          <p class="text-xl leading-relaxed">Keep the Right Tenant.  Done!</p>
+          <p class="text-xl leading-relaxed">Long Term Property Care.  Done!</p>
+          <p class="text-xl leading-relaxed">Stress Free Income.  Done!</p>
+          <h3 class="title-font sm:text-xl text-base mb-4 font-medium text-gray-900">Now Let's Get Your Journey Started to Stress-free Property Management.</h3>
           <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl.show()}>
             Begin Here
           </button>
