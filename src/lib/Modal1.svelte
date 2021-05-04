@@ -30,7 +30,7 @@
   export function show() {
     handleReset();
     showMdl = !showMdl;
-  }
+  };
 </script>
 
 <!-- This example requires Tailwind CSS v2.0+ -->
