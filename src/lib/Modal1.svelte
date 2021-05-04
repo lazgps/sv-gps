@@ -51,6 +51,7 @@
               <input name="firstname"
                      id="firstname" 
                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                     placeholder="First Name"
                      on:change={handleChange}
                      bind:value={$form.firstname}
               />
@@ -63,6 +64,7 @@
               <input name="lastname" 
                      id="lastname"
                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                     placeholder="Last Name"
                      on:change={handleChange}
                      bind:value={$form.lastname} 
               />
@@ -76,6 +78,7 @@
               <input name="email" 
                      id="email" 
                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                     placeholder="sample@example.com"
                      on:change={handleChange}
                      bind:value={$form.email}
               />
@@ -89,6 +92,7 @@
               <input name="phone" 
                      id="phone" 
                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                     placeholder="(xxx)xxx-xxxx"
                      on:change={handleChange}
                      bind:value={$form.phone}
               />
@@ -115,7 +119,8 @@
               <textarea id="goals" 
                         name="goals"
                         rows="3" 
-                        class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Your Property Management Goals" 
+                        class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md" 
+                        placeholder="Your Property Management Goals" 
                         on:change={handleChange}
                         bind:value={$form.goals}
               />

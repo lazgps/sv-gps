@@ -50,6 +50,7 @@
               <input name="brokeragename"
                      id="brokeragename" 
                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                     placeholder="Brokerage Name"
                      on:change={handleChange}
                      bind:value={$form.brokeragename}
               />
@@ -62,6 +63,7 @@
               <input name="realtorname" 
                      id="realtorname"
                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                     placeholder="Realtor's Name"
                      on:change={handleChange}
                      bind:value={$form.realtorname} 
               />
@@ -75,6 +77,7 @@
               <input name="email" 
                      id="email" 
                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                     placeholder="sample@sample.com"
                      on:change={handleChange}
                      bind:value={$form.email}
               />
@@ -88,6 +91,7 @@
               <input name="phone" 
                      id="phone" 
                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                     placeholder="(xxx)xxx-xxxx"
                      on:change={handleChange}
                      bind:value={$form.phone}
               />
@@ -101,7 +105,7 @@
               <textarea id="comments" 
                         name="comments"
                         rows="3" 
-                        class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Your Property Management Goals" 
+                        class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Send us your comments" 
                         on:change={handleChange}
                         bind:value={$form.goals}
               />
