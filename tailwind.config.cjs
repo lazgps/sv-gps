@@ -27,7 +27,7 @@ module.exports = {
 				DEFAULT: "#ee2c3c",
 				dark: "#c82532",
 				darkest: "#a21e29",
-			},
+			}
 		},
 		extend: {},
 	},
