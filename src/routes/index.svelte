@@ -10,10 +10,10 @@
       <Modal2 bind:this={Mdl2}></Modal2>
     <div class="bg-local bg-center bg-cover flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.jpg)">
         <div class="bg-white bg-opacity-50 rounded-lg mr-auto my-5 py-5 md:pl-10 w-4/6 md:w-2/6">
-          <h1 class="text-4xl text-left uppercase text-red-500 font-bold title-font w-4/5 ml-8">Stress Free, Hands-off Property Management</h1>
+          <h1 class="text-4xl text-left uppercase text-red font-bold title-font w-4/5 ml-8">Stress Free, Hands-off Property Management</h1>
           <br>
           <h2 class="text-lg text-white text-left w-4/5 ml-8">Let Us End Your Property Management Frustrations</h2>
-          <button class="mx-auto mt-20 text-white bg-red-500 border-0 w-4/5 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+          <button class="mx-auto mt-20 text-white bg-red border-0 w-4/5 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
             Begin Here
           </button>
         </div>
@@ -22,7 +22,7 @@
       <div class="inline-flex flex-col items-center text-center lg:flex-grow lg:pr-24 md:pr-16 w-1/2 md:items-start md:text-left md:px-16">
         <h1 class="title-font sm:text-4xl text-3xl mb-2 tracking-tighter font-medium text-gray-900">Let Us Fuel Your Profits</h1>
         <p class="mb-2 leading-relaxed text-2xl">We offer Top Tier Services and Easy, Simple Pricing</p>
-        <a class="text-red-600 title-font text-bold text-2xl" href="/services">
+        <a class="text-red title-font text-bold text-2xl" href="/services">
           Here's how
         </a>
       </div>
@@ -38,7 +38,7 @@
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Use Our Innovative Technology to Your Advantage
           </h1>
           <p class="mb-8 leading-relaxed">We offer innovative technology to Owners and Tenants that can be used anywhere in real-time via the GPS Owner and Tenant portal. Find out how our technology can assist you</p>
-          <button class="text-red-600 title-font text-bold text-2xl" on:click={() => Mdl1.show()}>
+          <button class="text-red title-font text-bold text-2xl" on:click={() => Mdl1.show()}>
             Begin Here
           </button>
         </div>
@@ -59,7 +59,7 @@
         <div class="text-center lg:w-2/3 w-full">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let's get your journey started to stress-free property management.</h1>
           <h2 class="text-xl font-bold text-gray-900 mb-8 leading-relaxed">(407)-715-2652</h2>
-          <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+          <button class="mx-auto mt-4 text-white bg-red border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
             Let's Begin
           </button>
         </div>
