@@ -137,14 +137,13 @@
         </div>
       </div>
     </div>
-    <div class="bg-gray-200 mx-auto flex px-5 py-10 items-center justify-center flex-row">
-      <div class="text-center lg:w-2/3 w-full">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let's get your journey started to stress-free property management.</h1>
-        <h2 class="text-xl font-bold text-gray-900 mb-8 leading-relaxed">(407)-715-2652</h2>
-        <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
-          Let's Begin
-        </button>
-      </div>
-    </div>
   </main>
-  
+<div class="bg-gray-200 mx-auto flex px-5 py-10 items-center justify-center flex-row">
+  <div class="text-center lg:w-2/3 w-full">
+    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let's get your journey started to stress-free property management.</h1>
+    <h2 class="text-xl font-bold text-gray-900 mb-8 leading-relaxed">(407)-715-2652</h2>
+    <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+      Let's Begin
+    </button>
+  </div>
+</div>  

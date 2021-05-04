@@ -97,18 +97,18 @@
           </div>
         </div>
       </div>
-      <div class="flex-grow bg-gray-200 mx-auto px-5 py-10 items-center justify-center">
-        <div class="text-center md:w-2/3 lg:w-full w-full">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What We Do Right</h1>
-          <p class="text-xl leading-relaxed">Find the Right Tenant.  Done!</p>
-          <p class="text-xl leading-relaxed">Keep the Right Tenant.  Done!</p>
-          <p class="text-xl leading-relaxed">Long Term Property Care.  Done!</p>
-          <p class="text-xl leading-relaxed">Stress Free Income.  Done!</p>
-          <h3 class="title-font sm:text-xl text-base mb-4 font-medium text-gray-900">Now Let's Get Your Journey Started to Stress-free Property Management.</h3>
-          <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl.show()}>
-            Begin Here
-          </button>
-        </div>
-      </div>
     </div>
-  </main>
+</main>
+<div class="flex-grow bg-gray-200 mx-auto px-5 py-5 items-center justify-center">
+  <div class="text-center md:w-2/3 lg:w-full w-full">
+    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What We Do Right</h1>
+    <p class="text-xl leading-relaxed">Find the Right Tenant.  Done!</p>
+    <p class="text-xl leading-relaxed">Keep the Right Tenant.  Done!</p>
+    <p class="text-xl leading-relaxed">Long Term Property Care.  Done!</p>
+    <p class="text-xl leading-relaxed">Stress Free Income.  Done!</p>
+    <h3 class="title-font sm:text-xl text-base mb-4 font-medium text-gray-900">Now Let's Get Your Journey Started to Stress-free Property Management.</h3>
+    <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl.show()}>
+      Begin Here
+    </button>
+  </div>
+</div>
