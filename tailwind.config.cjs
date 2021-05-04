@@ -1,4 +1,5 @@
 const { tailwindExtractor } = require("tailwindcss/lib/lib/purgeUnusedStyles");
+const colors = require("tailwindcss/colors");
 
 module.exports = {
 	purge: {
