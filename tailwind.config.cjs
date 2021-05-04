@@ -22,7 +22,7 @@ module.exports = {
 	theme: {
 		colors: {
 			red: {
-				DEFAULT: "#EE2C3C",
+				DEFAULT: "#ee2c3c",
 			},
 		},
 		extend: {},
