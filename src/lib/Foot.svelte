@@ -1,9 +1,11 @@
 
 <footer class="bg-red">
-    <div class="container flex flex-col items-stretch">
-        <div>
-            <h2>838 Grand Regency Pointe</h2>
-            <h3>Altamonte Springs, FL 32714</h3>
+    <div class="container grid grid-cols-2 grid-flow-row justify-items-auto">
+        <div classes="grid grid-cols-1 grid-flow-row justify-items-auto md:mx-8 md:my-4 md:py-4 md:px-8">
+            <p>838 Grand Regency Pointe</p>
+            <p>Altamonte Springs, FL 32714</p>
+            <p>407-715-2652</p>
+            <p>info@gps-realestate.com</p>
         </div>
         <div class="grid grid-cols-2 grid-flow-row justify-items-auto md:mx-8 md:my-4 md:py-4 md:px-8">
             <div class="md:mr-6 md:pr-6">
