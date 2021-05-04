@@ -7,8 +7,7 @@
 		"start": "svelte-kit start",
 		"build:vercel": "ADAPTER=@sveltejs/adapter-vercel OPTIONS={} npm run build",
 		"build:static": "ADAPTER=@sveltejs/adapter-static OPTIONS={} npm run build",
-		"build:netlify": "ADAPTER=@sveltejs/adapter-netlify OPTIONS={} npm run build",
-		"build:node": "ADAPTER=@sveltejs/adapter-node OPTIONS={} npm run build"
+		"build:netlify": "ADAPTER=@sveltejs/adapter-netlify OPTIONS={} npm run build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "next",
