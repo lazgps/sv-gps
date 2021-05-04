@@ -5,7 +5,7 @@
 
 <main class="container text-gray-600 w-screen z-1">
       <Modal1 bind:this={Mdl}></Modal1>
-    <div class="bg-gray-100 flex flex-col items-left content-start justify-start">
+    <div class="bg-local flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.jpg)">
         <div class="bg-white bg-opacity-50 rounded-lg mr-auto my-5 py-5 md:pl-10 w-4/6 md:w-2/6">
           <h1 class="text-4xl text-left uppercase text-red-500 font-bold title-font w-4/5 ml-8">Stres Free, Hands-off Property Management</h1>
           <br>
@@ -19,17 +19,17 @@
       <div class="inline-flex flex-col items-center text-center lg:flex-grow lg:pr-24 md:pr-16 w-1/2 md:items-start md:text-left md:px-16">
         <h1 class="title-font sm:text-4xl text-3xl mb-2 tracking-tighter font-medium text-gray-900">Let Us Maximize Your Profits</h1>
         <p class="mb-2 leading-relaxed text-2xl">We offer Top Tier Services and Easy, Simple Pricing</p>
-        <button class="text-red-600 title-font text-bold text-2xl" on:click={() => Mdl.show()}>
+        <a class="text-red-600 title-font text-bold text-2xl" href="/services">
           Here's how
-        </button>
+        </a>
       </div>
       <div class="flex-grow lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+        <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Let_Us_Maximize_Your_Profits.jpg">
       </div>
     </div>
     <div class="flex flex-col items-center md:flex-row mx-auto px-auto py-16 md:py-16 w-4/5">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+          <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Innovative_Technology.jpg">
         </div>
         <div class="inline-flex flex-col items-center text-center lg:flex-grow lg:pl-24  md:pl-16 w-1/2 md:items-start md:text-left">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Use Our Innovative Technology to Your Advantage
@@ -46,7 +46,7 @@
         <p class="mb-8 leading-relaxed">We are not only a full-service property management firm but we are also offer full Service Real Estate Services, with years of background in the Central Florida market. Call us today if you are buying or selling your home. Are you a Real Estate Agent, find out about of special Real Estate Agent referral program for Property Management services</p>
       </div>
       <div class="flex-grow lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+        <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Your_Full_Service_Property_Management_Partner.jpg">
       </div>
     </div>
     <div class="bg-gray-200 mx-auto flex px-5 py-10 items-center justify-center flex-row">
