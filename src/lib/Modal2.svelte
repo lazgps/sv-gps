@@ -42,7 +42,7 @@
         <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
           <div class="text-center text-lg text-gray-900 mb-2">
             <h2>Raltor Referral Program</h2>
-            <p>Thank you for inquiring about our Realtor referral Program.  To sign up, we will complete a non-compete form with you and we will need your broker's W-9 form for future payments!</p>
+            <p class="text-base">Thank you for inquiring about our Realtor referral Program.  To sign up, we will complete a non-compete form with you and we will need your broker's W-9 form for future payments!</p>
           </div>
           <form on:submit|preventDefault="{handleSubmit}">
             <div class="col-span-6 sm:col-span-3">
