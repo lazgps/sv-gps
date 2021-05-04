@@ -13,10 +13,10 @@
       <div class="flex flex-wrap -m-4">
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/staff/Tere-Striped-shirt-hip-hand.jpg">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/Tere-Striped-shirt-hip-hand.jpg">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Teresa Alvarez</h2>
-              <h3 class="text-gray-500 mb-3">Principal Broker</h3>
+              <h3 class="text-gray-500 mb-3">Broker</h3>
               <p class="mb-4">Teresa Alvarez is a native Floridian born in Miami to Cuban parents.  She studied Political Science and International Relations at FIU and graduated with a double BA.  
                 Having started her real estate career in 2005, Teresa sold multiple billions of dollars in real estate during the condo conversion era in the mid 2000s.  
                 Shortly thereafter, her focus shifted to general sales and property management.  
@@ -47,10 +47,10 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/staff/GPS-Todd-02.jpg">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Todd-02.jpg">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Todd Cerny</h2>
-              <h3 class="text-gray-500 mb-3">Designer</h3>
+              <h3 class="text-gray-500 mb-3">Social Media/Marketing</h3>
               <p class="mb-4">Todd is a proud graduate of the University of Central Florida and a long-term resident of the Orlando metropolitan area. 
                 Todd was lucky enough to graduate UCF and start and continue his career in the Orlando area. This has allowed him to create long lasting relationships in business and with friends in our local area. 
                 His experience in the fortune 500 technology industry, including social media and project management, brings a special skill set to GPS. In his spare time Todd enjoys UCF football, 
@@ -77,7 +77,7 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/staff/GPS-Laz-01.jpg">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Laz-01.jpg">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Lazaro Cubas</h2>
               <h3 class="text-gray-500 mb-3">Accountant</h3>
@@ -105,10 +105,10 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/staff/GPS-Dora-17.jpg">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Dora-17.jpg">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Doraliz Fernandez</h2>
-              <h3 class="text-gray-500 mb-3">Designer</h3>
+              <h3 class="text-gray-500 mb-3">Administrative Guru</h3>
               <p class="mb-4">Doraliz Fernandez was born in Dominican Republic but raised most of her life in central florida. Coming from a very close family, 
                 she has learned to value relations both personal and professionally. Her value for family life has helped her develop traits and qualities such as flexibility, 
                 compassion, and perseverance which projects in every aspect of her work life. In 2015 she was offered the opportunity to shift occupations from hospitality to property management, 
