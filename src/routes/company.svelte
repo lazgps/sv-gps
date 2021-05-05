@@ -31,10 +31,10 @@
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Todd Cerny</h2>
               <h3 class="text-gray-500 mb-3">Social Media/Marketing</h3>
-              <p class="mb-4">Todd is a proud graduate of the University of Central Florida and a long-term resident of the Orlando metropolitan area. 
-                Todd was lucky enough to graduate UCF and start and continue his career in the Orlando area. This has allowed him to create long lasting relationships in business and with friends in our local area. 
-                His experience in the fortune 500 technology industry, including social media and project management, brings a special skill set to GPS. In his spare time Todd enjoys UCF football, 
-                travelling, and playing guitar.</p>
+              <p class="mb-4">Todd is a graduate of the University of Central Florida and a long-term resident of the Orlando metropolitan area. Todd graduated UCF and was able to start
+                 and continue his career in the Orlando regional area. Making Orlando his long-term home has allowed Todd to create and keep long lasting relationships with friends
+                  and in business in our local community. His experience in the fortune 500 technology industry, including cloud and enterprise software, project management, 
+                  and social media, brings special skills to GPS. In his spare time Todd enjoys UCF football, the outdoors, traveling, and playing guitar.</p>
             </div>
           </div>
         </div>
