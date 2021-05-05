@@ -9,7 +9,7 @@
       <Modal1 bind:this={Mdl1}></Modal1>
       <Modal2 bind:this={Mdl2}></Modal2>
     <div class="bg-local bg-center bg-cover flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.jpg)">
-        <div class="bg-white bg-opacity-40 rounded-lg mr-auto my-5 py-5 md:pl-10 sm:w-4/6 md:w-2/6">
+        <div class="bg-white bg-opacity-70 rounded-lg mr-auto my-5 py-5 md:pl-10 sm:w-4/6 md:w-2/6">
           <h1 class="text-4xl text-left uppercase text-red font-bold title-font sm:w-4/5 ml-8">Stress Free, Hands-off Property Management</h1>
           <br>
           <h2 class="text-lg text-white text-left sm:w-4/5 ml-8">Let Us End Your Property Management Frustrations</h2>
