@@ -45,7 +45,7 @@
               <h2 class="title-font font-medium text-lg text-gray-900">Lazaro Cubas</h2>
               <h3 class="text-gray-500 mb-3">Accountant</h3>
               <p class="mb-4">Lazaro is a U.S. Coast Guard veteran with years of experience in the technology, finance, and accounting sectors. Lazaro offers a unique skillset to our property management and real estate Customers through his thorough knowledge of our innovative technology, and deep understanding of our accounting systems. 
-                Lazaro is a key team member making sure your GPS technology and accounting experience is seamless, accurate, and carefree.</p>
+                Lazaro is a key team member making sure your GPS technology and accounting experience is seamless, accurate, and carefree.  In his spare time Lazaro enjoys the theme parks.</p>
             </div>
           </div>
         </div>
