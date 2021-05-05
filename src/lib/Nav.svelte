@@ -16,8 +16,8 @@
     };
 </script>
 
-<nav class="flex sm:flex-col md:flex-row md:justify-between md:mt-2 text-gray-500">
-    <ul class="md:inline-flex md:flex-row self-end py-5 pr-5">
+<nav class="flex sm:flex-col lg:flex-row lg:justify-between sm:mt-2 text-gray-500">
+    <ul class="lg:inline-flex lg:flex-row md:inline-flex md:flex-col self-end py-5 pr-5">
         {#each srcLinks as [srcLink, name] }
          <li class="hover:text-gray-800 md:pl-4">
             <a rel='prefetch' href={srcLink} class:active="{$page.path === {name}}">

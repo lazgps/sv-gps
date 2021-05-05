@@ -1,5 +1,5 @@
 <header>
-    <div class="flex sm:flex-col lg:flex-row lg:flex-grow lg:justify-between px-5 md:px-0">
+    <div class="flex md:flex-col lg:flex-row lg:flex-grow lg:justify-between px-5 md:px-0">
         <div>
             <a href=".">
                 <img class="-ml-3" src="/images/logos/logo.png" alt="Our Logo">
