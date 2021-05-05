@@ -25,7 +25,7 @@
         </li>
         {/each}
     </ul>
-    <div class="sm:self-start self-end md:inline-flex md:flex-row pr-10 md:self-center md:p-0">
+    <div class="sm:self-start self-end md:inline-flex md:flex-row pr-10 md:p-0">
         <button class="hover:text-gray-800" on:click={showLogin}>Sign in</button>
     </div>
     {#if lMenu}
