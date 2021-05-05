@@ -3,6 +3,6 @@
         <a href=".">
             <img class="-ml-3" src="/images/logos/logo.png" alt="Our Logo">
         </a>
-        <h3 class="font-bold font-xl">Contact Us: 407.715.2652</h3>
+        <h3 class="font-bold font-xl">Contact Us: <span class="text-red">407.715.2652</span></h3>
     </div>
 </header>
