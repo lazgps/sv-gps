@@ -16,16 +16,16 @@
     };
 </script>
 
-<nav class="flex sm:flex-col lg:flex-row lg:justify-between sm:mt-2 text-gray-500">
-    <ul class="lg:inline-flex lg:flex-row md:inline-flex md:flex-col self-end py-5 pr-5">
+<nav class="grid sm:grid-cols-1 lg:grid-cols-2 sm:grid-flow-col lg:grid-flow-row justify-items-auto text-gray-500">
+    <ul class="grid lg:auto-cols-min grid-rows-1 sm:grid-flow-row md:grid-flow-row lg:grid-flow-col justify-items-auto ml-5 lg:ml-0">
         {#each srcLinks as [srcLink, name] }
-         <li class="hover:text-gray-800 md:pl-4">
+         <li class="mr-4 hover:text-gray-800">
             <a rel='prefetch' href={srcLink} class:active="{$page.path === {name}}">
                 <p>{name}</p>
         </li>
         {/each}
     </ul>
-    <div class="sm:self-start self-end md:inline-flex md:flex-row pr-10 md:p-0">
+    <div class="grid lg:auto-cols-auto grid-rows-1 sm:grid-flow-row md:grid-flow-row lg:grid-flow-col justify-items-start lg:justify-items-end ml-5 lg:ml-0">
         <button class="hover:text-gray-800" on:click={showLogin}>Sign in</button>
     </div>
     {#if lMenu}
