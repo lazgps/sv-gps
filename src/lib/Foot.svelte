@@ -1,6 +1,6 @@
 
 <footer class="bg-red">
-    <div class="container grid grid-cols-3 grid-flow-row justify-items-auto">
+    <div class="container grid sm:grid-cols-1 grid-cols-3 sm:grid-flow-row grid-flow-column justify-items-auto">
         <div class="grid grid-cols-1 grid-flow-row justify-items-auto md:mx-4 md:my-4 md:py-4 md:px-4 text-white">
             <p>838 Grand Regency Pointe<br>   
             Altamonte Springs, FL 32714<br>
