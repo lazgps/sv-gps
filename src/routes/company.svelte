@@ -17,14 +17,11 @@
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Teresa Alvarez</h2>
               <h3 class="text-gray-500 mb-3">Broker</h3>
-              <p class="mb-4">Teresa Alvarez is a native Floridian born in Miami to Cuban parents.  She studied Political Science and International Relations at FIU and graduated with a double BA.  
-                Having started her real estate career in 2005, Teresa sold multiple billions of dollars in real estate during the condo conversion era in the mid 2000s.  
-                Shortly thereafter, her focus shifted to general sales and property management.  
-                In 2009, Teresa moved to Central Florida and specialized in the Central Florida real estate market.  
-                Founding GPS Realty and Property Management in 2015, Teresa is passionate about managing rental properties for absentee owners as if they were her own.  
-                As an active investor herself, she understands the pain points that an absentee owner has and is resolved to help maximize their profits.  
-                She enjoys spending time with her family and friends, camping with her significant other of 10 years, Todd, and their little yorkie, Daisy.  
-                Reading, self-improvement, networking, and travel are her favorite pastimes. </p>
+              <p class="mb-4">Teresa is a Miami born Floridian proud of her Cuban heritage. She has a double BA from FIU and has been a real estate professional since 2005, 
+                with billions-of-dollars in real estate sales during her continuing career. She has worked in the Central Florida real estate market since 2009, 
+                with a focus on real estate sales and property management. Founding GPS Realty and Property Management in 2015, Teresa wanted to create a localized boutique firm, 
+                focusing on absentee owners. As an active property investor herself, she uniquely understands the pain points of an absentee owner and has a market acumen to maximize 
+                profits while relieving the challenges of ownership. Her favorite past times are spending time with family and friends, networking, travelling, and reading. </p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -109,12 +106,11 @@
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Doraliz Fernandez</h2>
               <h3 class="text-gray-500 mb-3">Administrative Guru</h3>
-              <p class="mb-4">Doraliz Fernandez was born in Dominican Republic but raised most of her life in central florida. Coming from a very close family, 
-                she has learned to value relations both personal and professionally. Her value for family life has helped her develop traits and qualities such as flexibility, 
-                compassion, and perseverance which projects in every aspect of her work life. In 2015 she was offered the opportunity to shift occupations from hospitality to property management, 
-                working directly with HOA's. The knowledge and years of experience she was able to gain during this time gave her a smooth transition to Real Estate, once she joined the GPS Realty and Property Management family in 2018. 
-                During her personal time, Doraliz enjoys spending time with her husband, and their little girl GIanna. When she is not occupied at home, 
-                you can find her outdoors searching for the next adventure!</p>
+              <p class="mb-4">Dora is Dominican born but Central Florida raised. Her family-oriented background has led her to value both personal and professional relationships 
+                that have molded her traits of flexibility, compassion, and perseverance. In 2015 she was offered the opportunity to shift occupations from hospitality to property 
+                management, working directly with HOA's, where she gained the skills that have made her a valuable real estate and property management administrative professional. 
+                During her personal time, Dora enjoys spending time with her husband, and their little girl Gianna. One of Dora’s favorite past times is being outdoors searching for the 
+                next adventure.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
