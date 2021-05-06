@@ -8,7 +8,7 @@
 <main class="container text-gray-600 w-screen z-1">
       <Modal1 bind:this={Mdl1}></Modal1>
       <Modal2 bind:this={Mdl2}></Modal2>
-    <div class="bg-local bg-center bg-cover flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.jpg)">
+    <div class="bg-local bg-center bg-cover flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.webp)">
         <div class="bg-white bg-opacity-70 rounded-lg mr-auto my-5 py-5 md:pl-10 sm:w-4/6 md:w-2/6">
           <h1 class="text-4xl text-left uppercase text-red font-bold title-font sm:w-4/5 ml-8">Stress Free, Hands-off Property Management</h1>
           <br>
@@ -27,12 +27,12 @@
         </a>
       </div>
       <div class="flex-grow lg:max-w-lg lg:w-1/2 sm:w-2/3">
-        <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Let_Us_Maximize_Your_Profits.jpg">
+        <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Let_Us_Maximize_Your_Profits.webp">
       </div>
     </div>
     <div class="flex flex-col items-center md:flex-row mx-auto px-auto lg:py-16 py-10 sm:py-10 w-4/5">
         <div class="lg:max-w-lg lg:w-1/2 sm:w-2/3">
-          <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Innovative_Technology.jpg">
+          <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Innovative_Technology.webp">
         </div>
         <div class="inline-flex flex-col items-center text-center lg:flex-grow lg:pl-24 sm:pl-16 sm:w-2/3 lg:w-1/2 lg:items-start lg:text-left">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Use Our Innovative Technology to Your Advantage
@@ -52,7 +52,7 @@
         </button>
       </div>
       <div class="flex-grow lg:max-w-lg lg:w-1/2 sm:2/3">
-        <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Your_Full_Service_Property_Management_Partner.jpg">
+        <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Your_Full_Service_Property_Management_Partner.webp">
       </div>
     </div>
     <div class="bg-gray-200 mx-auto flex px-5 py-10 items-center justify-center flex-row">
