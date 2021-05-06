@@ -3,6 +3,7 @@
   import Modal2 from '$lib/Modal2.svelte';
   let Mdl1;
   let Mdl2;
+
 </script>
 
 <main class="container text-gray-600 w-screen z-1">
