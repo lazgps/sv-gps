@@ -41,17 +41,17 @@
                 </a>
             </div>
             <div class="md:mr-6 md:pr-6">
-                <a href="">
+                <a href="https://www.floridarealtors.org/">
                     <img class="h-10" src="/images/logos/florida-realtors.png" alt="Florida Realtors logo">
                 </a>
             </div>
             <div class="md:mr-6 md:pr-6">
-                <a href="">
+                <a href="https://www.narpm.org/">
                     <img class="h-10" src="/images/logos/narpm.png" alt="N.A.R.P.M. logo">
                 </a>
             </div>
             <div class="md:mr-6 md:pr-6">
-                <a href="">
+                <a href="https://www.orlandorealtors.org/">
                     <img class="h-10" src="/images/logos/ORRA.png" alt="O.R.R.A logo">
                 </a>
             </div>
