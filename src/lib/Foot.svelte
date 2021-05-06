@@ -56,7 +56,7 @@
                 </a>
             </div>
             <div class="md:mr-6 md:pr-6">
-                <a href=https://magazine.realtor/sales-and-marketing/handouts-for-customers/for-buyers/7-reasons-to-work-with-a-realtor">
+                <a href="https://magazine.realtor/sales-and-marketing/handouts-for-customers/for-buyers/7-reasons-to-work-with-a-realtor">
                     <img class="h-10" src="/images/logos/realtor_logo.png" alt="Realtors logo">
                 </a>
             </div>
