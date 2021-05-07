@@ -4,16 +4,11 @@
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
-		"start": "svelte-kit start",
-		"build:vercel": "ADAPTER=@sveltejs/adapter-vercel OPTIONS={} npm run build",
-		"build:static": "ADAPTER=@sveltejs/adapter-static OPTIONS={} npm run build",
-		"build:netlify": "ADAPTER=@sveltejs/adapter-netlify OPTIONS={} npm run build"
+		"start": "svelte-kit start"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/adapter-node": "next",
-		"@sveltejs/adapter-static": "next",
-		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.21.0",
 		"@typescript-eslint/parser": "^4.21.0",
