@@ -24,6 +24,8 @@
             return {
                 props: {
                     title: post.title,
+                    author: post.author,
+                    topic: post.topic,
                     date: post.date,
                     Rendered
                 },
@@ -40,6 +42,8 @@
 
 <script>
     export let title;
+    export let author;
+    export let topic;
     export let date;
     export let Rendered;
 </script>
@@ -49,8 +53,10 @@
       <div class="flex flex-wrap -m-4">
         <div class="p-4 md:w-full">
             <div class="h-full">
-                <h1 class="title-font text-lg font-medium text-gray-500 mb-3">{date}</h1>
-                <p class="leading-relaxed text-lg font-bold text-black-900 mb-3">{title}</p>
+                <h1 class="title-font text-lg font-medium text-gray-500">{date}</h1>
+                <h2 class="leading-relaxed text-lg font-bold text-black-800">Title -{title}</h2>
+                <h3 class="leading-relaxed text-base text-black-900">Author -{author}</h3>
+                <h4 class="leading-relaxed text-base text-black-900 mb-4">Topic -<i>{topic}</i></h4>
                 <Rendered class="lg:mb-0 tex-red-500"/>
             </div>
         </div>

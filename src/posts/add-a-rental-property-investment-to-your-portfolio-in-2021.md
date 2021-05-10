@@ -1,7 +1,13 @@
 ---
 title: Add A Rental Property Investment To Your Portfolio In 2021
 excerpt: Add a rental property in 2021!
+thumbnail: null
+topic: Rental Property
 date: 2021-02-10T15:01:40.065Z
+author: Todd Cerny
+tags:
+  - Rentals
+  - Properties
 ---
 Have you been considering adding a rental property investment to your portfolio in 2021? It might be the perfect time for [GPS Realty and Property Management](https://gpsrealtyandpropertymanagement.com/#) to help you find the ideal investment property in the Central Florida area. 
 
