@@ -10,11 +10,10 @@
       <Modal1 bind:this={Mdl1}></Modal1>
       <Modal2 bind:this={Mdl2}></Modal2>
     <div class="bg-local bg-center bg-cover flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.webp)">
-        <div class="bg-white bg-opacity-70 rounded-lg mr-auto my-5 py-5 md:pl-10 sm:w-4/6 md:w-2/6">
-          <h1 class="text-4xl text-left uppercase text-red font-bold title-font sm:w-4/5 ml-8">Stress Free, Hands-off Property Management</h1>
-          <br>
+        <div class="bg-white bg-opacity-70 rounded-lg mr-auto my-5 py-5 md:pl-5 sm:w-4/6 md:w-3/6 lg:w-2/6 lg:pl-0">
+          <h1 class="text-4xl text-left uppercase text-red font-bold title-font sm:w-4/5 ml-8 mb-4">Stress Free, Hands-off Property Management</h1>
           <h2 class="text-lg text-white text-left sm:w-4/5 ml-8">Let Us End Your Property Management Frustrations</h2>
-          <button class="mx-auto mt-20 text-white bg-red border-0 sm:w-4/5 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+          <button class="mx-auto mt-10 text-white bg-red border-0 sm:w-4/5 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
             Begin Here
           </button>
         </div>

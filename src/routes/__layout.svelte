@@ -11,6 +11,10 @@
 	export let segment;
 </script>
 
+<svelte:head>
+	<title>Global Property Services</title>
+</svelte:head>
+
 <div class="container bg-default h-screen w-screen min-h-screen mx-auto mt-0">
 	<div class="sticky bg-white top-0 h-18 w-full my-6 py-6 z-50">
 		<Headr />
