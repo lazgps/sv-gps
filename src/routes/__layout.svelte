@@ -15,10 +15,9 @@
 	<title>Global Property Services</title>
 </svelte:head>
 
-<div class="container bg-default h-screen w-screen min-h-screen mx-auto mt-0">
-	<div class="sticky bg-white top-0 h-18 w-full my-6 py-6 z-50">
-		<Headr />
-		<Nav {segment}/>
+<div class="container bg-default h-screen w-screen min-h-screen mx-auto mt-40 lg:mt-40">
+	<div class="fixed bg-white top-0 h-26 w-full lg:max-w-full pr-2 py-2 z-50">
+		<Headr {segment}/>
 	</div>
 	<slot></slot>
 	<Foot />

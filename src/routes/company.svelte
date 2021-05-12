@@ -5,7 +5,7 @@
 
 <main class="text-gray-600 body-font">
     <Modal1 bind:this={Mdl1}></Modal1>
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-5 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Our lineup of real estate and property management professionals offers a unique blend of talents that provides our Owners and Tenants a personalized property management experience.</p>
