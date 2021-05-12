@@ -28,13 +28,13 @@
                 <h3 class="font-bold font-lg lg:font-xl">Contact Us: <span class="text-red">407.715.2652</span></h3>
             </div>
             <div class="justify-self-end">
-                <button on:click={showLogin}>
+                <button class=""on:click={showLogin}>
                     <svg style="width:20px;height:20px" viewBox="0 0 20 20">
                         <path fill="currentColor" d="M1,4 H18 V6 H1 V4 M1,9 H18 V11 H1 V7 M3,14 H18 V16 H1 V14" />
                     </svg>
                 </button>
                 {#if lMenu}
-                    <div class="origin-top-right absolute right-0 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                    <div class="container absolute right-0 w-2/4 md:w-2/6 lg:w-1/6 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
                         {#each srcLinks as [srcLink, name] }
                             <a rel='prefetch' href={srcLink} class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1">{name}</a>
                         {/each}
