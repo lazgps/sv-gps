@@ -88,5 +88,9 @@
             </div>
         </div>
     </div>
-    <small class="text-white ml-4" style="font-size: .5rem;">© GPS Realty and Property Management 2021</small>
+    <div class="">
+        <small class="text-white ml-4" style="font-size: .5rem;">© GPS Realty and Property Management 2021</small>
+        <a href="/privacy-policy"><small class="text-white ml-2" style="font-size: .6rem">Our Privacy Policy</small></a>
+        <a href="/terms-of-use"><small class="text-white ml-2" style="font-size: .6rem">Our Terms of Use</small></a>
+    </div>
 </footer>
