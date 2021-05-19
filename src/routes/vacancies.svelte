@@ -1,6 +1,10 @@
 <script>
     import { onMount } from "svelte";
-    import Modal1 from '$lib/Modal1.svelte';
+    import { goto } from '$app/navigation';
+  
+    function callform(){
+        goto('/contactus');
+    }
 
     let turnerData = [];
 
@@ -8,19 +12,20 @@
         const rest = await fetch('https://app.tenantturner.com/listings-json-key/gpsrealtyandpropertymanagement');
         turnerData = await rest.json();
     });
-
-    let Mdl1;
 </script>
 
 <main class="text-gray-600 body-font pb-12">
-    <Modal1 bind:this={Mdl1}></Modal1>
     <div class="container px-5 py-14 mx-auto">
       <div class="flex flex-wrap -m-4">
         {#if turnerData}
             {#each turnerData as data}       
                 <div class="p-4 md:w-1/3">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={data.photos[0]} alt="property picture">
+                        {#if data.photos.length > 0}
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={data.photos[0]} alt="property picture">
+                        {:else}
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="property picture">
+                        {/if}
                         <div class="p-6">
                             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">FOR RENT</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{data.address}</h1>
@@ -42,7 +47,7 @@
             {/each}
         {:else}
                 <div class="p-4 md:w-1/3">
-
+                    <h1>No Vacancies at this time</h1>
                 </div>
         {/if}
       </div>
@@ -51,7 +56,7 @@
 <div class="flex-grow bg-gray-200 mt-10 mx-auto px-5 py-10 items-center justify-center">
     <div class="text-center md:w-2/3 lg:w-full w-full">
       <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let our simplified pricing structure fuel your profits</h2>
-      <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+      <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
         Begin Here
       </button>
     </div>

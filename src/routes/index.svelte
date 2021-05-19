@@ -1,19 +1,21 @@
 <script>
-  import Modal1 from '$lib/Modal1.svelte';
+  import { goto } from '$app/navigation';
   import Modal2 from '$lib/Modal2.svelte';
-  let Mdl1;
   let Mdl2;
+
+  function callform(){
+    goto('/contactus');
+  }
 
 </script>
 
 <main class="container text-gray-600 w-screen z-1">
-      <Modal1 bind:this={Mdl1}></Modal1>
       <Modal2 bind:this={Mdl2}></Modal2>
     <div class="bg-local bg-center bg-cover flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.webp)">
         <div class="bg-white bg-opacity-70 rounded-lg mr-auto my-5 py-5 md:pl-5 sm:w-4/6 md:w-3/6 lg:w-2/6 lg:pl-0">
           <h1 class="text-4xl text-left uppercase text-red font-bold title-font sm:w-4/5 ml-8 mb-4">Stress Free, Hands-off Property Management</h1>
           <h2 class="text-lg text-white text-left sm:w-4/5 ml-8">Let Us End Your Property Management Frustrations</h2>
-          <button class="mx-auto mt-10 text-white bg-red border-0 sm:w-4/5 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+          <button class="mx-auto mt-10 text-white bg-red border-0 sm:w-4/5 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
             Begin Here
           </button>
         </div>
@@ -38,7 +40,7 @@
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Use Our Innovative Technology to Your Advantage
           </h1>
           <p class="mb-8 leading-relaxed">We offer innovative technology to Owners and Tenants that can be used anywhere in real-time via the GPS Owner and Tenant portal. Find out how our technology can assist you</p>
-          <button class="text-red title-font text-bold text-2xl" on:click={() => Mdl1.show()}>
+          <button class="text-red title-font text-bold text-2xl" on:click="{callform}">
             Begin Here
           </button>
         </div>
@@ -59,7 +61,7 @@
         <div class="text-center lg:w-2/3 w-full">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let's get your journey started to stress-free property management.</h1>
           <h2 class="text-xl font-bold text-gray-900 mb-8 leading-relaxed">(407)-715-2652</h2>
-          <button class="mx-auto mt-4 text-white bg-red border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+          <button class="mx-auto mt-4 text-white bg-red border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
             Let's Begin
           </button>
         </div>

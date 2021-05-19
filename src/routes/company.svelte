@@ -1,10 +1,12 @@
 <script>
-  import Modal1 from '$lib/Modal1.svelte';
-  let Mdl1;
+  import { goto } from '$app/navigation';
+  
+  function callform(){
+    goto('/contactus');
+  }
 </script>
 
 <main class="text-gray-600 body-font">
-    <Modal1 bind:this={Mdl1}></Modal1>
     <div class="container px-5 py-5 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
@@ -70,7 +72,7 @@
   <div class="text-center lg:w-2/3 w-full">
     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let's get your journey started to stress-free property management.</h1>
     <h2 class="text-xl font-bold text-gray-900 mb-8 leading-relaxed">(407)-715-2652</h2>
-    <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click={() => Mdl1.show()}>
+    <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
       Let's Begin
     </button>
   </div>
