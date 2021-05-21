@@ -1,8 +1,16 @@
 <script>
-    let submit;
+    import { goto } from '$app/navigation';
 
+    let submit;
     let broker, realtor, email, phone, comments;
 
+    function resetForm() {
+        broker="";
+        realtor="";
+        email="";
+        phone="";
+        comments="";
+    }
     function handleSubmit() {
         submit = fetch('/postform', {
             method: 'POST',
@@ -17,6 +25,12 @@
             headers: { 'content-type': 'application/json'},
         })
         .then((resp) => resp.json())
+        .then((data) => {
+        console.log(data);
+        setTimeout(function(){alert(`Message Sent \n ${data.msgID}`);} , 8000);
+        resetForm();
+        goto('/');
+        })
     };
 </script>
 
@@ -78,6 +92,13 @@
                     class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Send us your comments" 
                     bind:value={comments}
             />
+        </div>
+        <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+            {#if submit}
+              {#await submit}
+                <h1 class="rounded-md border border-transparent shadow-sm text-base font-medium text-red">Sending...</h1>
+              {/await}
+            {/if}
         </div>
         <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
             <button type="submit" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">
