@@ -1,16 +1,17 @@
 <script>
   import { goto } from '$app/navigation';
-  import Modal2 from '$lib/Modal2.svelte';
-  let Mdl2;
 
   function callform(){
     goto('/contactus');
+  }
+  
+  function realtorform(){
+    goto('/realtor');
   }
 
 </script>
 
 <main class="container text-gray-600 w-screen z-1">
-      <Modal2 bind:this={Mdl2}></Modal2>
     <div class="bg-local bg-center bg-cover flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.webp)">
         <div class="bg-white bg-opacity-70 rounded-lg mr-auto my-5 py-5 md:pl-5 sm:w-4/6 md:w-3/6 lg:w-2/6 lg:pl-0">
           <h1 class="text-4xl text-left uppercase text-red font-bold title-font sm:w-4/5 ml-8 mb-4">Stress Free, Hands-off Property Management</h1>
@@ -49,7 +50,7 @@
       <div class="inline-flex flex-col items-center text-center lg:flex-grow lg:pr-24 sm:pr-16 sm:2/3 lg:w-1/2 md:items-start md:text-left md:px-16">
         <h1 class="title-font sm:text-4xl text-3xl mb-4 tracking-tighter font-medium text-gray-900">A Realtors Full Service Property Management Partner</h1>
         <p class="mb-8 leading-relaxed">Are you a Realtor looking for a Property Manager or property management partner?  Take advantage of our <i>Real Estate Agent Referral Program</i></p>
-        <button class="text-red-600 title-font text-bold text-2xl" on:click={() => Mdl2.show()}>
+        <button class="text-red-600 title-font text-bold text-2xl" on:click="{realtorform}">
           Realtors Begin Here
         </button>
       </div>
