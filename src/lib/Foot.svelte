@@ -88,7 +88,7 @@
             </div>
         </div>
     </div>
-    <div class="">
+    <div class="grid sm:grid-cols-1 lg:grid-cols-3 md:grid-flow-row lg:grid-flow-column justify-items-auto">
         <small class="text-white ml-4" style="font-size: .5rem;">© GPS Realty and Property Management 2021</small>
         <a href="/privacy-policy"><small class="text-white ml-2" style="font-size: .6rem">Our Privacy Policy</small></a>
         <a href="/terms-of-use"><small class="text-white ml-2" style="font-size: .6rem">Our Terms of Use</small></a>

@@ -24,14 +24,14 @@
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Routine property inspections.
+              </span>One routine property inspection by a third party vendor.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Regular property on-site visits.
+              </span>One on-site property visit annually.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -88,7 +88,7 @@
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>100% transparency – no mark-ups.
+              </span>100% transparency – no mark-ups on subcontractor invoices.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -145,56 +145,56 @@
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Starts with a full rent value market analysis.
+              </span>Full rental comprehensive market analysis.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>To find the best tenant, a robust marketing effort which includes social media.
+              </span>To find the best tenant, we implement a robust marketing effort including social media.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Lease / Placement fee is collected from 1st month's rent, no owner out-of-pocket.
+              </span>Lease / Placement fee is collected from 1st month's rent, owner does not have to come out-of-pocket.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Includes adherence to a strict tenant qualification criteria.
+              </span>Includes adherence to a strict tenant qualification criteria aided by integrated AI technology.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Tenants replaced for free within the 1st year if lease is broken.
+              </span>Tenants replaced for free within the 1st year if lease is broken (exclusion apply).
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Includes property analysis and recommendation to protect your investment.
+              </span>Includes property analysis and recommendation for property improvements to protect your investment.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Includes review for adherence to all H.O.A. rules, regulations, and leasing policies.
+              </span>Includes review for adherence to all HOA rules, regulations, and leasing policies and adherence to the same.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Prepared and signed attorney drawn lease and addendums.
+              </span>To comply with Florida Statues, we user attorney drawn lease and addendums.
             </p>
           </div>
         </div>
@@ -216,7 +216,7 @@
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Includes market rent analysis to determine renewal rate.
+              </span>We will conduct a market rent analysis to determine renewal rate.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -244,14 +244,14 @@
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Make recommendations based on property inspection to keep your investment in shape.
+              </span>Make recommendations based on property inspection to keep your investment viable for long term habitablity.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Laison with H.O.A ensuring updated contact and lease information for tenants.
+              </span>Laise with HOA to ensure ongoing compliance with leasing policy, updated contact and lease information for tenants.
             </p>
             <p class="flex items-center text-gray-600 text-sm mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
