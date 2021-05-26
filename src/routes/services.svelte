@@ -25,9 +25,9 @@
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
             <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Finding the Right Tenant Is Top Priority</h2>
             <ul class="list-disc list-inside">
-              <li class="">powerful technology driven marketing lists your property on all internet rental platforms and social media</li>
-              <li>strict screening process including ai algorithms to ensure the best candidates</li>
-              <li>less than 1% eviction rates on residents we place</li>
+              <li class="">Powerful technology driven marketing lists your property on all internet rental platforms and social media</li>
+              <li>Strict screening process including AI algorithms to ensure the best candidates</li>
+              <li>Less than 1% eviction rates on residents we place</li>
               <li>100% tenant loss guarantee (exclusions apply)</li>
             </ul>
           </div>
@@ -48,10 +48,10 @@
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
             <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Once We Find the Right Tenant, We Keep Them</h2>
             <ul class="list-disc list-inside">
-              <li>we offer a maintenance platform that allows seamless communication between the tenant, manager and vendor</li>
-              <li>most work orders are fulfilled in 48 hours</li>
+              <li>We offer a maintenance platform that allows seamless communication between the tenant, manager and vendor</li>
+              <li>Most work orders are fulfilled in 48 hours</li>
               <li>24-hour manned after-hours emergency call line</li>
-              <li>annual third-party inspections paid for by GPS helps avoid unexpected surprises for tenants and owners</li>
+              <li>Annual third-party inspections paid for by GPS helps avoid unexpected surprises for tenants and owners</li>
             </ul>
           </div>
         </div>
@@ -72,10 +72,10 @@
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
             <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">A Long Term Focus on the Care of Your Property Investment</h2>
             <ul class="list-disc list-inside">
-              <li>third party inspections allow planning and budgeting</li>
-              <li>fully licensed and insured vendors for maintenance</li>
-              <li>fully transparent, no mark-ups on already low vendor pricing</li>
-              <li>quick maintenance resolution to avoid long term or further damage</li>
+              <li>Third party inspections allow planning and budgeting</li>
+              <li>Fully licensed and insured vendors for maintenance</li>
+              <li>Fully transparent, no mark-ups on already low vendor pricing</li>
+              <li>Quick maintenance resolution to avoid long term or further damage</li>
             </ul>
           </div>
         </div>
@@ -96,10 +96,10 @@
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
             <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Property Producing Income That Is Stress Free</h2>
             <ul class="list-disc list-inside">
-              <li>no hidden fees or reserves</li>
-              <li>money in your account 15 days after receipt, every month</li>
-              <li>online owner portal that allows real-time information 24 hours a day, from anywhere</li>
-              <li>easy out contract for owners with no cancellation fees</li>
+              <li>No hidden fees or reserves</li>
+              <li>Money in your account 15 days after receipt, every month</li>
+              <li>Online owner portal that allows real-time information 24 hours a day from anywhere</li>
+              <li>Easy out contract for owners with no cancellation fees</li>
             </ul>
           </div>
         </div>
