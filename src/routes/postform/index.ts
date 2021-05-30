@@ -31,7 +31,7 @@ export async function post(req) {
     };
   
     let transporter = nodemailer.createTransport({
-        host: 'smtp.ethereal.email',
+        host: 'smtp.office365.com',
         port: 587,
         secure: false,
         auth: {
