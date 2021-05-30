@@ -41,7 +41,7 @@
 
 <main class="container text-gray-600 w-3/4 mx-auto z-1">
     <div class="text-center text-lg text-gray-900 mb-10">
-        <h2>Submit the Form to Obtain a Free Rental Analysis</h2>
+        <h2>Please Provide the Following Information to Obtain Your Free Rental Analysis</h2>
     </div>
     <form on:submit|preventDefault="{handleSubmit}" method="post">
         <div class="col-span-6 sm:col-span-3">

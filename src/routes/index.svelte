@@ -24,7 +24,7 @@
     <div class="flex flex-col-reverse md:flex-row items-center mx-auto px-auto lg:py-16 py-10 sm:py-10 w-4/5">
       <div class="inline-flex flex-col items-center text-center lg:flex-grow lg:pr-24 md:pr-16 sm:2/3 lg:w-1/2 md:items-start md:text-left md:px-16">
         <h1 class="title-font sm:text-4xl text-3xl mb-2 tracking-tighter font-medium text-gray-900">Let Us Fuel Your Profits</h1>
-        <p class="mb-2 leading-relaxed">We offer Top Tier Services and Easy, Simple Pricing</p>
+        <p class="mb-2 leading-relaxed">We offer Top Tier Services and Easy Simple Pricing</p>
         <a class="text-red title-font text-bold text-2xl" href="/services">
           Here's how
         </a>

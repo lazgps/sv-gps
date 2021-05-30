@@ -37,7 +37,7 @@
 <main class="container text-gray-600 w-3/4 mx-auto z-1">
     <div class="text-center text-lg text-gray-900 mb-2">
         <h2>Realtor Referral Program</h2>
-        <p class="text-base">Join our Realtor Referral Program to secure additional revenue for your business. For more information and to sign up, please complete the following form.</p>
+        <p class="text-base">Join our Realtor Referral Program to secure additional revenue for your business. For more information and to sign up, please provide the following information.</p>
     </div>
     <form on:submit|preventDefault="{handleSubmit}" method="post">
         <div class="col-span-6 sm:col-span-3">

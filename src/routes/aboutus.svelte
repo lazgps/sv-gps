@@ -22,7 +22,7 @@
               <p class="mb-4">Teresa is a Miami born Floridian proud of her Cuban heritage. She has a double BA from FIU and has been a real estate professional since 2005,
                  with billions-of-dollars in real estate sales during her continuing career. She has worked in the Central Florida real estate market since 2009, with a 
                  focus on real estate sales and property management. Founding GPS Realty and Property Management in 2015, Teresa wanted to create a localized boutique firm,
-                  with a strong focus on absentee owners. As an active property investor herself, she uniquely understands the pain points of an absentee owner and has a 
+                  with a strong focus on absentee owners. As an active property investor herself, she uniquely understands the pain points of an absentee owner and has the 
                   market acumen to maximize profits while relieving the challenges of ownership. Her favorite pastimes are spending time with family and friends, networking,
                    traveling, and reading. </p>
             </div>

@@ -5,7 +5,7 @@
         ['/', 'Home'],
         ['/services', 'Services'],
         ['/pricing', 'Pricing'],
-        ['/company', 'Company'],
+        ['/aboutus', 'About Us'],
         ['/vacancies','Vacancies'],
         ['/blog', 'Blog']
     ];
