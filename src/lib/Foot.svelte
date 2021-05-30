@@ -82,9 +82,7 @@
                 </a>
             </div>
             <div>
-                <a href="">
-                    <img class="h-10" src="/images/logos/reos.png" alt="REOS logo">
-                </a>
+                <img class="h-10" src="/images/logos/reos.png" alt="REOS logo">
             </div>
         </div>
     </div>
