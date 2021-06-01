@@ -1,9 +1,12 @@
 <script context="module">
   export const prerender = true;
 
+  let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
   export async function load({ page, session }) {
     const { slug } = page.params;
     const posts = session.posts;
+
 
     if (posts.length) {
       return {
@@ -11,6 +14,7 @@
           posts: posts
         },
       };
+      
     } else {
       return {
         status: 404,
@@ -22,10 +26,19 @@
 
 <script>
  export let posts;
+
+ if (posts.length) {
+   for (let i=0; i < posts.length; i++) {
+     let tmpdate = new Date(posts[i].date);
+     posts[i].date = months[tmpdate.getMonth()] + ' ' + tmpdate.getDate() + ' ' + tmpdate.getFullYear();
+   }
+ }
+
 </script>
 
 <main class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
+  <div class="text-center text-2xl text-gray-900 font-bold">Blog Musings</div>
+  <div class="container px-5 py-14 mx-auto">
       <div class="flex flex-wrap -m-4">
         {#if posts}
           {#each posts as post}
@@ -35,7 +48,7 @@
                 {#if post.thumbnail}
                   <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{post.thumbnail}" alt="{post.thumbnail}">
                 {:else}
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog post">
+                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="/images/stock-photos/services-1.webp" alt="blog post">
                 {/if}
                 <div class="p-6">
                   <h1 class="title-font text-lg font-medium text-gray-900">Title: {post.title}</h1>
