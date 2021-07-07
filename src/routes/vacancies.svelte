@@ -37,6 +37,7 @@
                                     <path d="M12 5l7 7-7 7"></path>
                                 </svg>
                                 </a>
+                                <a class="mx-auto text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold" href={data.applyUrl}>Apply</a>
                                 <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
                                     ${data.rentAmount}
                                 </span>
