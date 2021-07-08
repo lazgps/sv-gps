@@ -30,7 +30,7 @@
                             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">FOR RENT</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{data.address}</h1>
                             <p class="leading-relaxed mb-3">{data.title}</p>
-                            <div class="flex items-center flex-wrap ">
+                            <div class="flex items-center flex-col lg:flex-row flex-grow">
                                 <span class="text-gray-400 sm:ml-auto leading-none text-sm py-1">
                                     Rent: ${data.rentAmount}
                                 </span>
