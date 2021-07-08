@@ -35,7 +35,7 @@
                                     Rent: ${data.rentAmount}
                                 </span>
                                 <a class="mx-auto text-white bg-red-500 border-0 py-2 px-2 my-2 md:my-0 focus:outline-none hover:bg-red-600 rounded text-bold" href={data.btnUrl}>Learn More</a>
-                                <a class="mx-auto text-white bg-red-500 border-0 py-2 px-2 my-2 md:px-0 md:my-0 focus:outline-none hover:bg-red-600 rounded text-bold" href={data.applyUrl}>Apply</a>
+                                <a class="mx-auto text-white bg-red-500 border-0 py-2 px-2 my-2 md:-ml-2 md:my-0 focus:outline-none hover:bg-red-600 rounded text-bold" href={data.applyUrl}>Apply</a>
                             </div>
                         </div>
                     </div>
