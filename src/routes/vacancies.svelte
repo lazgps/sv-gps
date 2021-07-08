@@ -31,7 +31,7 @@
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{data.address}</h1>
                             <p class="leading-relaxed mb-3">{data.title}</p>
                             <div class="flex items-center flex-wrap ">
-                                <span class="text-gray-400 mr-3 inline-flex items-center md:ml-0 sm:ml-auto leading-none text-sm pr-3 py-1">
+                                <span class="text-gray-400 mr-3 md:ml-0 sm:ml-auto leading-none text-sm pr-3 py-1">
                                     Rent: ${data.rentAmount}
                                 </span>
                                 <a class="mx-auto text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold" href={data.btnUrl}>Learn More</a>
