@@ -26,7 +26,7 @@
         {/each}
     </ul>
     <div class="grid lg:auto-cols-auto grid-rows-1 grid-flow-col sm:grid-flow-row md:grid-flow-col lg:grid-flow-col justify-items-start sm:justify-items-start md:justify-items-end lg:justify-items-end ml-5 lg:ml-0">
-        <button class="hover:text-gray-800" on:click={showLogin}>Sign in ▾</button>
+        <button aria-label="Sign in" class="hover:text-gray-800" on:click={showLogin}>Sign in ▾</button>
     </div>
     {#if lMenu}
         <div class="origin-top-right relative lg:absolute right-0 lg:mt-12 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
