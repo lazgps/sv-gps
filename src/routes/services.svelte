@@ -114,7 +114,7 @@
     <p class="text-xl leading-relaxed">Long Term Property Care.  Done!</p>
     <p class="text-xl leading-relaxed">Stress Free Income.  Done!</p>
     <h3 class="title-font sm:text-xl text-base mb-4 font-medium text-gray-900">Now Let's Get Your Journey Started to Stress-free Property Management.</h3>
-    <button class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
+    <button arial-label="Owner Form" class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
       Begin Here
     </button>
   </div>
