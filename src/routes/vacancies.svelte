@@ -15,7 +15,7 @@
 </script>
 
 <main class="text-gray-600 body-font pb-12">
-    <div class="container px-5 py-14 mx-auto">
+    <div class="container px-5 py-10 mx-auto">
       <div class="flex flex-wrap -m-4">
         {#if turnerData}
             <div class="p-4 md:w-1/3 lg:w-full text-center text-2xl text-gray-900 font-bold">
