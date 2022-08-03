@@ -20,7 +20,7 @@
     <ul class="grid auto-cols-min lg:auto-cols-min grid-rows-1 sm:grid-flow-row md:grid-flow-col lg:grid-flow-col justify-items-auto ml-5 md:ml-0 lg:ml-0">
         {#each srcLinks as [srcLink, name] }
          <li class="mr-4 hover:text-gray-800">
-            <a rel='prefetch' href={srcLink} class:active="{$page.path === {name}}">
+            <a rel='prefetch' href={srcLink} title={name} class:active="{$page.path === {name}}">
                 <p>{name}</p>
         </li>
         {/each}
@@ -31,9 +31,9 @@
     {#if lMenu}
         <div class="origin-top-right relative lg:absolute right-0 lg:mt-12 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
             <!-- Active: "bg-gray-100", Not Active: "" -->
-            <a href="https://app.propertyware.com/pw/portals/gpsrealtypropertymanagementllc/owner.action" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Owner Login</a>
-            <a href="https://app.propertyware.com/pw/portals/gpsrealtypropertymanagementllc/tenant.action" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Tenant Login</a>
-            <a href="https://app.propertymeld.com/tenant/gps-realty-and-property-management" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Maintenance Login</a>
+            <a href="https://app.propertyware.com/pw/portals/gpsrealtypropertymanagementllc/owner.action" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0" title="Owner Login">Owner Login</a>
+            <a href="https://app.propertyware.com/pw/portals/gpsrealtypropertymanagementllc/tenant.action" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1" title="Tenant Login">Tenant Login</a>
+            <a href="https://app.propertymeld.com/tenant/gps-realty-and-property-management" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2" title="Maintenance Login">Maintenance Login</a>
         </div>
     {/if}
 </nav>
