@@ -64,31 +64,31 @@
             </div>
             <div class="md:mr-6 md:pr-6">
                 <a href=" https://www.nar.realtor/fair-housing/fair-housing-program/fair-housing-declaration" title="Link to Equal Housing">
-                    <img class="h-10" src="/images/logos/equal-house-opp.png" alt="Equal Housing logo">
+                    <img class="h-10" src="/images/logos/equal-house-opp.png" alt="The logo for Equal Housing">
                 </a>
             </div>
             <div class="md:mr-6 md:pr-6">
                 <a href="https://www.floridarealtors.org/" title="Link to Florida Realtors.org">
-                    <img class="h-10" src="/images/logos/florida-realtors.png" alt="Florida Realtors logo">
+                    <img class="h-10" src="/images/logos/florida-realtors.png" alt="The logo Florida Realtors">
                 </a>
             </div>
             <div class="md:mr-6 md:pr-6">
                 <a href="https://www.narpm.org/" title="Link to narpm.org">
-                    <img class="h-10" src="/images/logos/narpm.png" alt="N.A.R.P.M. logo">
+                    <img class="h-10" src="/images/logos/narpm.png" alt="The logo for N.A.R.P.M.">
                 </a>
             </div>
             <div class="md:mr-6 md:pr-6">
                 <a href="https://www.orlandorealtors.org/" title="Link to orlandorealtors.org">
-                    <img class="h-10" src="/images/logos/ORRA.png" alt="O.R.R.A logo">
+                    <img class="h-10" src="/images/logos/ORRA.png" alt="The logo for O.R.R.A">
                 </a>
             </div>
             <div class="md:mr-6 md:pr-6">
                 <a title="Link to magazine.realtor" href="https://magazine.realtor/sales-and-marketing/handouts-for-customers/for-buyers/7-reasons-to-work-with-a-realtor">
-                    <img class="h-10" src="/images/logos/realtor_logo.png" alt="Realtors logo">
+                    <img class="h-10" src="/images/logos/realtor_logo.png" alt="The logo for Realtors association">
                 </a>
             </div>
             <div>
-                <img class="h-10" src="/images/logos/reos.png" alt="REOS logo">
+                <img class="h-10" src="/images/logos/reos.png" alt="The logo for REOS">
             </div>
         </div>
     </div>
