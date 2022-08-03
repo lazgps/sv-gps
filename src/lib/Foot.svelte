@@ -92,12 +92,9 @@
             </div>
         </div>
     </div>
-    <div class="grid sm:grid-cols-1 lg:grid-cols-3 md:grid-flow-row lg:grid-flow-column auto-row-min justify-items-auto">
-        <small class="text-white ml-4" style="font-size: .5rem;">© GPS Realty and Property Management 2021</small>
-        <small class="text-white ml-4 lg:ml-0 lg:text-center" style="font-size: .5rem"><a title="Privacy Policy" href="/privacy-policy">Our Privacy Policy</a></small>
-        <small class="text-white ml-4 lg:ml-0 lg:text-center" style="font-size: .5rem"><a title="Terms of Use" href="/terms-of-use">Our Terms of Use</a></small>
-    </div>
-    <div>
-        <br>
+    <div class="grid sm:grid-cols-1 lg:grid-cols-3 md:grid-flow-row lg:grid-flow-row auto-row-min justify-items-auto">
+        <small class="text-white ml-4" style="font-size: .6rem;">© GPS Realty and Property Management 2021</small>
+        <small class="text-white ml-4 lg:ml-0 lg:text-center" style="font-size: .6rem"><a title="Privacy Policy" href="/privacy-policy">Our Privacy Policy</a></small>
+        <small class="text-white ml-4 lg:ml-0 lg:text-center" style="font-size: .6rem"><a title="Terms of Use" href="/terms-of-use">Our Terms of Use</a></small>
     </div>
 </footer>
