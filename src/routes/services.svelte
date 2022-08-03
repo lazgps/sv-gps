@@ -86,7 +86,7 @@
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">4</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-[#B21010] rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-4.webp" class="rounded-full w-24 h-24" alt="services 4">
 <!--             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
