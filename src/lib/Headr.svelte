@@ -20,7 +20,7 @@
 <header>
     <div class="container grid grid-cols-2 lg:grid-cols-2 grid-flow-column lg:grid-flow-column justify-items-auto md:px-0">
         <div>
-            <a href="https://globalpropertyservicesllc.com/" alt="Home Page">
+            <a href="https://globalpropertyservicesllc.com/" title="Home Link">
                 <svg role="img" xmlns="http://www.w3.org/2000/svg" width="164" height="76" viewBox="0 0 164 76" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>GPS Logo</title>
                     <defs>

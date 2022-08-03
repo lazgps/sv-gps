@@ -30,12 +30,12 @@
         </a>
       </div>
       <div class="flex-grow lg:max-w-lg lg:w-1/2 sm:w-2/3">
-        <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Let_Us_Maximize_Your_Profits.webp">
+        <img class="object-cover object-center rounded" alt="Let Us Maximize Your Profits image" src="/images/stock-photos/Let_Us_Maximize_Your_Profits.webp">
       </div>
     </div>
     <div class="flex flex-col items-center md:flex-row mx-auto px-auto lg:py-16 py-10 sm:py-10 w-4/5">
         <div class="lg:max-w-lg lg:w-1/2 sm:w-2/3">
-          <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Innovative_Technology.webp">
+          <img class="object-cover object-center rounded" alt="Inovative Technology image" src="/images/stock-photos/Innovative_Technology.webp">
         </div>
         <div class="inline-flex flex-col items-center text-center lg:flex-grow lg:pl-24 sm:pl-16 sm:w-2/3 lg:w-1/2 lg:items-start lg:text-left">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Use Our Innovative Technology to Your Advantage
@@ -55,7 +55,7 @@
         </button>
       </div>
       <div class="flex-grow lg:max-w-lg lg:w-1/2 sm:2/3">
-        <img class="object-cover object-center rounded" alt="hero" src="/images/stock-photos/Your_Full_Service_Property_Management_Partner.webp">
+        <img class="object-cover object-center rounded" alt="Your Full Service Property Management Partner image" src="/images/stock-photos/Your_Full_Service_Property_Management_Partner.webp">
       </div>
     </div>
     <div class="bg-gray-200 mx-auto flex px-5 py-10 items-center justify-center flex-row">
