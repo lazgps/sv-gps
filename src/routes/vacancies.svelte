@@ -18,7 +18,7 @@
     <div class="container px-5 py-10 mx-auto">
       <div class="flex flex-wrap -m-4">
         {#if turnerData}
-            <div class="p-4 md:w-1/3 lg:w-full text-center text-2xl text-gray-900 font-bold">
+            <div class="p-4 md:w-1/3 lg:w-full text-center text-2xl text-gray-900">
                 <h1>Our Vacancies</h1>
             </div>
             {#each turnerData as data}       
