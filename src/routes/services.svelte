@@ -14,7 +14,7 @@
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
-        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red text-white relative z-10 title-font font-medium text-sm">1</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-1.webp" class="rounded-full w-24 h-24" alt="A hand holding keys">
@@ -37,7 +37,7 @@
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
-        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red text-white relative z-10 title-font font-medium text-sm">2</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-2.webp" class="rounded-full w-24 h-24" alt="A dad carrying his son on his shoulders">
@@ -60,7 +60,7 @@
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
-        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">3</div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red text-white relative z-10 title-font font-medium text-sm">3</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-3.webp" class="rounded-full w-24 h-24" alt="A House with a pool in fisheye view">
@@ -84,7 +84,7 @@
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
-        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red text-white relative z-10 title-font font-medium text-sm">4</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-4.webp" class="rounded-full w-24 h-24" alt="Person in a hammock next to a waterfall">
@@ -113,8 +113,8 @@
     <p class="text-xl leading-relaxed">Keep the Right Tenant.  Done!</p>
     <p class="text-xl leading-relaxed">Long Term Property Care.  Done!</p>
     <p class="text-xl leading-relaxed">Stress Free Income.  Done!</p>
-    <h3 class="title-font sm:text-xl text-base mb-4 font-medium text-gray-900">Now Let's Get Your Journey Started to Stress-free Property Management.</h3>
-    <button arial-label="Owner Form" class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
+    <h2 class="title-font sm:text-xl text-base mb-4 font-medium text-gray-900">Now Let's Get Your Journey Started to Stress-free Property Management.</h2>
+    <button arial-label="Owner Form" class="mx-auto mt-4 text-white bg-red border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
       Begin Here
     </button>
   </div>
