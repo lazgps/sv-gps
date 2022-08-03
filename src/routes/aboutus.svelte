@@ -15,7 +15,7 @@
       <div class="flex flex-wrap -m-4">
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="Teresa Alvarez" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/Tere-Striped-shirt-hip-hand.webp">
+            <img alt="Tere" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/Tere-Striped-shirt-hip-hand.webp">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Teresa Alvarez</h2>
               <h3 class="text-gray-500 mb-3">Broker</h3>
@@ -30,7 +30,7 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="Todd Cerny" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Todd-02.webp">
+            <img alt="Todd" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Todd-02.webp">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Todd Cerny</h2>
               <h3 class="text-gray-500 mb-3">Social Media/Marketing</h3>
@@ -44,7 +44,7 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="Lazaro Cubas" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Laz-01.webp">
+            <img alt="Lazaro" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Laz-01.webp">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Lazaro Cubas</h2>
               <h3 class="text-gray-500 mb-3">Accountant</h3>
@@ -57,7 +57,7 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="Dora Fernandez" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Dora-17.webp">
+            <img alt="Dora" class="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4" src="/images/staff/GPS-Dora-17.webp">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Doraliz Fernandez</h2>
               <h3 class="text-gray-500 mb-3">Administrative Guru</h3>
@@ -76,7 +76,7 @@
   <div class="text-center lg:w-2/3 w-full">
     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let's get your journey started to stress-free property management.</h1>
     <h2 class="text-xl font-bold text-gray-900 mb-8 leading-relaxed">(407)-715-2652</h2>
-    <button aria-label="Owner Form" class="mx-auto mt-4 text-white bg-red-500 border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
+    <button aria-label="Owner Form" class="mx-auto mt-4 text-white bg-red border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
       Let's Begin
     </button>
   </div>
