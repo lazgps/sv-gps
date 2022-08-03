@@ -98,6 +98,6 @@
         <small class="text-white ml-4 lg:ml-0 lg:text-center" style="font-size: .5rem"><a title="Terms of Use" href="/terms-of-use">Our Terms of Use</a></small>
     </div>
     <div>
-        <span></span>
+        <span> </span>
     </div>
 </footer>

@@ -51,7 +51,7 @@
 </main>
 <div class="flex-grow bg-gray-200 mt-10 mx-auto px-5 py-10 items-center justify-center">
     <div class="text-center md:w-2/3 lg:w-full w-full">
-      <h1><h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let our simplified pricing structure fuel your profits</h2></h1>
+      <h1 class="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">Let our simplified pricing structure fuel your profits</h1>
       <button aria-label="Owner Form" class="mx-auto mt-4 text-white bg-red border-0 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
         Begin Here
       </button>
