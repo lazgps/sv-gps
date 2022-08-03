@@ -13,7 +13,7 @@
 
 <main class="container text-gray-600 w-screen z-1">
     <div class="bg-local bg-center bg-cover flex flex-col items-left content-start justify-start" style="background-image: url(/images/stock-photos/Stress_Free_Handsoff_Property_Management.webp)">
-        <div class="bg-white bg-opacity-70 rounded-lg mr-auto my-5 py-5 md:pl-5 sm:w-4/6 md:w-3/6 lg:w-2/6 lg:pl-0">
+        <div class="bg-white bg-opacity-70 rounded-lg mr-auto my-5 py-5 md:pl-5 sm:w-4/6 md:w-3/6 lg:w-2/6 lg:pl-0 lg:ml-4">
           <h1 class="text-4xl text-left uppercase text-red font-bold title-font sm:w-4/5 ml-8 mb-4">Stress Free, Hands-off Property Management</h1>
           <h2 class="text-lg text-white text-left sm:w-4/5 ml-8">Let Us End Your Property Management Frustrations</h2>
           <button aria-label="Owner Form" class="mx-auto mt-10 text-white bg-red border-0 sm:w-4/5 ml-8 py-2 px-4 focus:outline-none hover:bg-red-600 rounded text-bold text-xl" on:click="{callform}">
