@@ -16,7 +16,7 @@
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">1</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-[#B21010] rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-1.webp" class="rounded-full w-24 h-24" alt="services 1">
 <!--             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -39,7 +39,7 @@
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">2</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-[#B21010] rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-2.webp" class="rounded-full w-24 h-24" alt="services 2">
 <!--             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -62,7 +62,7 @@
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">3</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-[#B21010] rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-3.webp" class="rounded-full w-24 h-24" alt="services 3">
 <!--             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <circle cx="12" cy="5" r="3"></circle>
@@ -86,7 +86,7 @@
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">4</div>
         <div class="flex-grow md:pl-8 pl-6 lg:pl-1 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-[#B21010] rounded-full inline-flex items-center justify-center">
             <img src="/images/stock-photos/services-4.webp" class="rounded-full w-24 h-24" alt="services 4">
 <!--             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>

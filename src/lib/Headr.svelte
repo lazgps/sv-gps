@@ -39,7 +39,7 @@
         </div>
         <div class="grid grid-flow-row auto-cols-min justify-self-end">
             <div>
-                <h3 class="font-bold font-lg lg:font-xl">Contact Us: <span class="text-red-500">407.715.2652</span></h3>
+                <h3 class="font-bold font-lg lg:font-xl">Contact Us: <span class="text-[#B21010]">407.715.2652</span></h3>
             </div>
             <div class="justify-self-end">
                 <button aria-label="menu button" on:click={showLogin}>

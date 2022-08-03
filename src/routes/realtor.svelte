@@ -96,7 +96,7 @@
         <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
             {#if submit}
               {#await submit}
-                <h1 class="rounded-md border border-transparent shadow-sm text-base font-medium text-red">Sending...</h1>
+                <h1 class="rounded-md border border-transparent shadow-sm text-base font-medium text-[#B21010]">Sending...</h1>
               {/await}
             {/if}
         </div>
